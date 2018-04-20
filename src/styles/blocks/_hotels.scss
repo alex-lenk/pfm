@@ -1,0 +1,318 @@
+.hotels {
+    background-image: url(../img/bg/hotel-bg.png);
+    .section-block__inner {
+        position: relative;
+    }
+}
+
+.hotels .pagination,
+.hotels-wrap, .hotels .owl-nav {
+    transition: all 0.4s ease;
+}
+
+.hotel-item {
+    margin-bottom: 40px;
+}
+
+.hotel-item__panel {
+    height: 57px;
+    padding-left: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    background-color: rgba(#1E1E1E, .45);
+}
+
+.hotel-item__name {
+    color: $colorOrange;
+    text-transform: uppercase;
+    @include font-size(19px);
+}
+
+.hotel-item__price {
+    height: inherit;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1E1E1E;
+    display: inline-flex;
+    align-items: center;
+    flex: none;
+    justify-content: center;
+    white-space: nowrap;
+    @include font-size(20px);
+    span {
+        @include font-size(18px);
+    }
+}
+
+.hotel-item__star {
+    height: 30px;
+    padding-right: 10px;
+    background-color: rgba(#000, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    &::before {
+        width: 0;
+        height: 0;
+        border: 15px solid rgba(0, 0, 0, 0.5);
+        border-left: 6px solid transparent;
+        position: absolute;
+        top: 0;
+        left: -21px;
+        content: '';
+    }
+    .star {
+        width: 13px;
+        height: 12px;
+        margin-right: 5px;
+        fill: #fff;
+    }
+}
+
+.hotel-window {
+    width: 100%;
+    top: 130px;
+    left: 0;
+    z-index: 10;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+    &::before {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #262626;
+        content: '';
+        z-index: -1;
+    }
+    p {
+        line-height: 1.3;
+    }
+    .h1 {
+        margin-bottom: 70px;
+    }
+}
+
+.hotel-window__close {
+    position: absolute;
+    top: 12px;
+    right: 26px;
+    cursor: pointer;
+    .close {
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+        transition: fill 0.4s ease;
+    }
+    &:hover .close {
+        fill: $colorOrange;
+    }
+}
+
+.hotel-window__content {
+    padding: 37px 45px 22px;
+    background: #171817;
+    box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.30);
+    display: flex;
+}
+
+.hotel-window__right .bid-form {
+    background-color: #282A28;
+    padding-top: 18px;
+    margin-left: 0;
+}
+
+.hotel-window__prices {
+    margin-top: 5px;
+    top: 5px;
+    position: relative;
+    font-weight: 500;
+    line-height: 1;
+    display: flex;
+    @include font-size(20px);
+    li {
+        min-height: 48px;
+        &:not(:last-child) {
+            border-right: 1px solid #979797;
+        }
+        &:not(:first-child):not(:last-child) {
+            text-align: center;
+        }
+        &:last-child {
+            text-align: right;
+        }
+    }
+    .classes {
+        margin-bottom: 10px;
+        color: $colorOrange;
+    }
+    .cost span {
+        @include font-size(18px);
+    }
+}
+
+.hotel-window__prices-inner {
+    display: inline-block;
+    text-align: left;
+}
+
+.hotel-window__head {
+    line-height: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel-window__title {
+    padding-right: 20px;
+    margin-bottom: 0;
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
+    text-transform: none;
+    font-weight: 500;
+    @include font-size(30px);
+    .external-link {
+        width: 12px;
+        height: 12px;
+        fill: $colorOrange;
+        position: absolute;
+        right: 0;
+        top: 6px;
+        transition: fill 0.4s ease;
+    }
+    a {
+        text-decoration: underline;
+        &:hover {
+            &::after {
+                width: 0;
+                background-color: #fff;
+            }
+            .external-link {
+                fill: #fff;
+            }
+        }
+    }
+}
+
+.hotel-window__location {
+    padding-left: 25px;
+    padding-top: 13px;
+    position: relative;
+    font-weight: 400;
+    @include font-size(18px);
+    a {
+        color: #fff;
+        &::after {
+            width: 100%;
+            height: 1px;
+            background-color: #fff;
+            display: block;
+            content: '';
+            transition: all 0.4s ease;
+        }
+        &:hover {
+            color: $colorOrange;
+            &::after {
+                width: 0;
+                background-color: $colorOrange;
+            }
+            .location {
+                fill: $colorOrange;
+            }
+        }
+    }
+    .location {
+        width: 16px;
+        height: 16px;
+        fill: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 3px;
+        transition: fill 0.4s ease;
+    }
+}
+
+.hotel-window__big {
+    position: relative;
+}
+
+.hotel-big {
+    margin-bottom: 10px;
+}
+
+.hotel-thrum {
+    margin-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    .slick-slide {
+        padding: 0 5px;
+    }
+    .arrow {
+        width: 10px;
+        height: 10px;
+        fill: #A0A0A0;
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        margin-top: -5px;
+        transition: all 0.4s ease;
+    }
+}
+
+.slick-arrow {
+    height: 100%;
+    width: 20px;
+    top: 0;
+    transition: all 0.4s ease;
+    &:not(.slick-disabled) {
+        cursor: pointer;
+        background-color: #fff;
+        .arrow {
+            fill: #EE7D00;
+        }
+        &:hover {
+            background-color: $colorOrange;
+            .arrow {
+                fill: #fff;
+            }
+        }
+    }
+}
+
+.slick-disabled {
+    background-color: #222422;
+}
+
+.slick-prev {
+    left: 0;
+    .arrow {
+        transform: rotate(180deg);
+    }
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slider-item:focus {
+    outline: none;
+}
+
+.open-hotel {
+    .hotels-wrap,
+    .pagination, .owl-nav {
+        opacity: 0;
+    }
+    .hotel-window {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}

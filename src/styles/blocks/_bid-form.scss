@@ -1,0 +1,25 @@
+.bid-form {
+    flex: none;
+    background-color: rgba(#171817, .7);
+    .btn {
+        margin-top: 15px;
+    }
+}
+
+.bid-form__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    @include font-size(24px)
+}
+
+.panel-flex {
+    display: flex;
+}
+
+.panel-flex__left {
+    overflow: hidden;
+    flex: 1;
+}

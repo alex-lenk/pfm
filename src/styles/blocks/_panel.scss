@@ -1,0 +1,123 @@
+.panel {
+    margin-bottom: 2px;
+}
+
+.panel-heading {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.4s ease;
+    &:not(.col-active) {
+        background-color: rgba(#1E1E1E, .45);
+    }
+}
+
+.col-active {
+    background-color: rgba(#1E1E1E, .7);
+}
+
+.panel-heading__time {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+}
+
+.panel-heading__date {
+    text-align: center;
+    display: block;
+    color: $colorOrange;
+    @include font-size(15px);
+}
+
+.panel-heading__event {
+    padding-left: 58px;
+    font-weight: 400;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.panel-heading__more {
+    margin-left: auto;
+}
+
+.panel-collapse {
+    background-color: rgba(#171817, .55);
+}
+
+.panel-body {
+    @include clearfix;
+    a:hover svg {
+        fill: #fff;
+    }
+    .location {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+        fill: $colorOrange;
+        transition: fill 0.4s ease;
+    }
+}
+
+.panel-body__head {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-body__price {
+    margin-bottom: auto;
+    margin-left: auto;
+    font-weight: 500;
+    @include font-size(22px);
+    .human {
+        font-weight: 400;
+        @include font-size(19px);
+    }
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.tab-date {
+    line-height: 1;
+    display: inline-flex;
+    li {
+        position: relative;
+        padding-bottom: 5px;
+        border-bottom: 1px solid transparent;
+        cursor: pointer;
+        transition: color 0.4s ease;
+        &::before {
+            height: 24px;
+            top: 4px;
+            right: -16px;
+            position: absolute;
+            background-color: #979797;
+            content: '';
+        }
+        &:not(.active) {
+            color: #A0A0A0;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .active {
+        border-bottom-color: $colorOrange;
+    }
+}
+
+.tab-date__number {
+    font-weight: 700;
+    @include font-size(32px);
+}
+
+.tab-date__month {
+    font-weight: 400;
+    @include font-size(20px);
+}

@@ -1,0 +1,97 @@
+@import "mixin";
+@import "variables";
+
+.ui-placeholder {
+    @include hidePlaceholder {
+        opacity: 1;
+        font-weight: 300;
+        color: #C6C6C6;
+        transition: opacity 0.3s ease;
+        font-family: akrobat, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Segoe UI Symbol";
+        @include font-size(18px);
+    }
+    &:focus {
+        border-color: rgba(#fff, .7);
+        @include hidePlaceholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+    }
+}
+
+.ui-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+textarea.ui-field, textarea.form-control {
+    padding-top: 12px;
+    min-height: 99px;
+}
+
+.ui-field {
+    height: 47px;
+    width: 100%;
+    padding: 0 22px;
+    background: transparent;
+    color: #fff;
+    font-weight: 300;
+    display: block;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(#535350, .7);
+    transition: all .4s ease;
+    font-family: akrobat, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Segoe UI Symbol";
+    @include font-size(16px);
+}
+
+.field-filled {
+    .ui-field {
+        color: #fff;
+        border-color: #fff !important;
+    }
+    .has-error__text {
+        opacity: 0;
+    }
+}
+
+.has-error {
+    .ui-field {
+        border-color: $colorOrange;
+        @include hidePlaceholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        &:focus + .has-error__text {
+            opacity: 0;
+        }
+    }
+    .has-error__text {
+        text-transform: uppercase;
+        position: absolute;
+        color: $colorOrange;
+        left: 22px;
+        top: 14px;
+        pointer-events: none;
+        @include font-size(16px);
+    }
+}
+
+input::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    display: none !important;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s; /* выставляется желаемая задержка */
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #dadada !important;
+}

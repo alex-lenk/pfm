@@ -1,0 +1,12 @@
+.footer {
+    background-color: #171817;
+    color: #C6C6C6;
+    @include font-size(15px);
+}
+
+.footer-wrap {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}

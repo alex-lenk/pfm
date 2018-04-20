@@ -1,0 +1,46 @@
+.partner {
+    padding-top: 79px;
+    padding-bottom: 72px;
+    background-color: #fff;
+}
+
+.partner-carousel {
+    padding-left: 45px;
+    padding-right: 45px;
+    img {
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    a {
+        max-width: 200px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slick-arrow {
+        height: 40px;
+        top: 50%;
+        margin-top: -20px;
+        background-color: transparent;
+        &:not(.slick-disabled):hover {
+            background-color: transparent;
+            .arrow {
+                fill: #171817;
+            }
+        }
+    }
+    .arrow {
+        width: 20px;
+        height: 20px;
+        transition: fill 0.4s ease;
+    }
+    .slick-disabled {
+        background-color: transparent;
+        pointer-events: none;
+        .arrow {
+            fill: #E1E1E1;
+        }
+    }
+}

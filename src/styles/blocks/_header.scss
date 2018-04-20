@@ -1,0 +1,304 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg/header-bg.jpg) no-repeat center;
+    border-bottom: 1px solid rgba(#fff, .13);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    &::before {
+        height: 100%;
+        right: 0;
+        top: 0;
+        position: absolute;
+        background: url(../img/bg/header-left-bg@2x.png) no-repeat top right;
+        background-size: contain;
+        content: '';
+    }
+    
+    &::after {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        content: '';
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, .00) 0%, rgba(110, 110, 110, .07) 25%, #757575 47%);
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
+    }
+    .header-logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.header-container {
+    padding-top: 35px;
+    flex: 0 0 160px;
+}
+
+.header-panel {
+    z-index: 5;
+    position: relative;
+    align-items: flex-start;
+    &::before {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: url(../img/bg/header-left-bg@2x.png) no-repeat top right #1E1E1E;
+        background-size: contain;
+        content: '';
+        transform: translateX(-100%);
+    }
+}
+
+.header-panel__inner {
+    line-height: 1;
+    font-weight: 400;
+    display: flex;
+    @include font-size(16px);
+}
+
+/* ********************************** */
+
+.header-menu {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-transform: uppercase;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    &:not(:first-of-type) {
+        margin-left: auto;
+    }
+    .active {
+        color: $colorOrange;
+        border-bottom-color: $colorOrange;
+    }
+}
+
+.header-menu__point {
+    border-bottom: 1px solid transparent;
+    &:not(.active) {
+        color: #fff;
+        &:hover {
+            color: $colorOrange;
+        }
+    }
+}
+
+.header-menu__link {
+    color: inherit;
+}
+
+/* ********************************** */
+
+.header-logo {
+    width: 152px;
+}
+
+/* ********************************** */
+
+.header-lang {
+    padding-top: 23px;
+    cursor: pointer;
+    display: flex;
+}
+
+.language-bar-item {
+    padding-right: 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: $colorOrange;
+    line-height: 1;
+    @include font-size(16px);
+    &:not(.language-bar-current) {
+        display: flex;
+        &::before {
+            width: 10px;
+            height: 10px;
+            top: 3px;
+            right: -5px;
+            position: absolute;
+            background: url(../img/arrow.svg) no-repeat center;
+            background-size: contain;
+            content: '';
+        }
+    }
+    .arrow {
+        width: 10px;
+        height: 10px;
+        fill: $colorOrange;
+        position: absolute;
+        top: 2px;
+        right: 0;
+    }
+    a, span {
+        border-bottom: 1px solid transparent;
+        text-transform: uppercase;
+        transition: all 0.4s ease;
+    }
+}
+
+.language-bar-current {
+    display: none;
+}
+
+/*****************************************/
+
+.header-date {
+    position: relative;
+}
+
+.header-date__number {
+    top: -6px;
+    color: $colorOrange;
+    line-height: 1;
+    position: relative;
+    z-index: 2;
+    font-family: 'ristretto_prosemibold', akrobat, sans-serif;
+    @include font-size(73px);
+}
+
+.header-date__month {
+    min-width: 49px;
+    min-height: 26px;
+    top: 19px;
+    left: 36px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.header-date__location {
+    padding-left: 44px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 29px;
+    @include font-size(26px);
+}
+
+/*****************************************/
+
+.header-content {
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.header-content__text {
+}
+
+.header-content__link {
+    color: $colorOrange;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.header-biker {
+    position: relative;
+    z-index: 5;
+    text-align: right;
+}
+
+.header-biker__media {
+    width: 100%;
+    margin-left: auto;
+}
+
+/*****************************************/
+
+.header-bottom {
+    margin-top: auto;
+    color: #C6C6C6;
+    overflow: hidden;
+    flex: none;
+    @include font-size(18px);
+    li {
+        position: relative;
+        &:not(:first-child):not(:last-child) {
+            text-align: center;
+        }
+        &:first-child, &:last-child {
+            &::before {
+                width: 150rem;
+                height: 100%;
+                top: 0;
+                position: absolute;
+                content: '';
+                background-color: inherit;
+            }
+        }
+        &:first-child {
+            background-color: rgba(#000, .1);
+            &::before {
+                right: 100%;
+            }
+        }
+        &:nth-child(2) {
+            background-color: rgba(#000, .15);
+        }
+        &:nth-child(3) {
+            background-color: rgba(#000, .20);
+            .header-bottom__text {
+                padding-right: 15px;
+            }
+        }
+        &:last-child {
+            text-align: right;
+            background-color: rgba(#000, .25);
+            &::before {
+                left: 100%;
+            }
+        }
+    }
+}
+
+.header-bottom__block {
+    height: 100px;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    text-align: left;
+}
+
+.header-bottom__icon {
+    width: 39px;
+    height: 38px;
+    margin-right: 20px;
+    fill: #fff;
+}
+
+.header-bottom__text {
+    line-height: 22px;
+}
+
+.header-wrap {
+    overflow: hidden;
+}
+
+.header-down {
+    width: 1px;
+    height: 58px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    z-index: 12;
+    position: absolute;
+    overflow: hidden;
+    &::after {
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        background-color: $colorOrange;
+        animation: downUpAnimate 1.5s 1000 linear;
+    }
+}
