@@ -1,12 +1,14 @@
 @import 'lib/breakpoint';
 @import 'lib/breakpoint-slicer';
 /* common */
-/*
 @import "common/variables";
 @import "common/mixin";
 @import "common/fonts";
+@import "common/common";
+/*
 @import "common/btn";
 @import "common/form";
-@import "common/common";
 */
 /* blocks */
+@import "blocks/header";
+@import "blocks/menu";

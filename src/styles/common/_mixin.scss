@@ -69,3 +69,21 @@
     width: $width;
     height: $height;
 }
+
+//lineDecor
+@mixin lineDecor($lineDecorColor) {
+    position: relative;
+    display: inline-block;
+    &::after {
+        width: 0;
+        height: 1px;
+        margin: 0 auto;
+        display: block;
+        background-color: $lineDecorColor;
+        transition: width 0.4s ease;
+        content: '';
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}

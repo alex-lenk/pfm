@@ -12,7 +12,10 @@
 
 //*********************************
 
-@media (min-width: 576px) {
+@media (min-width: 1170px) {
+    .menu-toggle {
+        display: none;
+    }
 }
 
 /* ----------- iPad Pro ----------- */
