@@ -16,21 +16,8 @@
 /* 1. smoothscroll.js */
 //= lib/smoothscroll.js
 
-
 /* 2. svgxuse.min.js */
 //= lib/svgxuse.min.js
-
-
-/* 3. owl.carousel.min.js */
-// = ../../bower_components/owl.carousel/dist/owl.carousel.min.js
-
-
-/* 4. swiper.min.js */
-// = ../../bower_components/swiper/dist/js/swiper.min.js
-
-
-/* 5. jquery.formstyler.min.js */
-// = lib/jquery.formstyler.min.js
 
 /* 6. slick.min.js */
 //= ../../bower_components/slick-carousel/slick/slick.min.js
@@ -40,6 +27,3 @@
 
 /* 8. bootstrap.min.js */
 //= lib/bootstrap.min.js
-
-/* 9. bootstrap.min.js */
-// = lib/jquery.mb.browser.min.js

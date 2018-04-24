@@ -1,0 +1,27 @@
+.presentation .btn-light {
+    max-width: 200px;
+}
+
+.presentation-content {
+    padding: 60px;
+    color: #fff;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentation-title {
+    max-width: 550px;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    @include font-size(45px);
+}
+
+.presentation-text {
+    max-width: 410px;
+    margin-bottom: 30px;
+}
