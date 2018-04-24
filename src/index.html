@@ -13,7 +13,7 @@
                     <use xlink:href="img/sprite.svg#phone"></use>
                 </svg>
                 +7 (495) 567-45-78</a>
-            <span class="header-contacts__order">Заказать звонок</span>
+            <span class="header-contacts__order" data-toggle="modal" data-target="#myModal">Заказать звонок</span>
         </div>
         <ul class="header-lang list-unstyled">
             <li class="header-lang__item header-lang__active"><a href="#" rel="nofollow">RU</a></li>
@@ -41,6 +41,28 @@
         </ul>
     </nav>
 </header>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"></span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">заказать звонок</h4>
+
+            <form action="" class="modal-order">
+                <div class="ui-group">
+                    <input type="text" class="ui-placeholder ui-field" placeholder="Телефон">
+                </div>
+                <button class="btn btn-default">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- include "template/scripts.html" -->
 
 </body>
 </html>

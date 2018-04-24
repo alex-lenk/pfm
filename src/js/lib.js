@@ -22,7 +22,7 @@
 
 
 /* 3. owl.carousel.min.js */
-//= ../../bower_components/owl.carousel/dist/owl.carousel.min.js
+// = ../../bower_components/owl.carousel/dist/owl.carousel.min.js
 
 
 /* 4. swiper.min.js */
@@ -36,10 +36,10 @@
 //= ../../bower_components/slick-carousel/slick/slick.min.js
 
 /* 7. jquery.fancybox.min.js */
-//= ../../bower_components/fancybox/dist/jquery.fancybox.min.js
+// = ../../bower_components/fancybox/dist/jquery.fancybox.min.js
 
 /* 8. bootstrap.min.js */
 //= lib/bootstrap.min.js
 
 /* 9. bootstrap.min.js */
-//= lib/jquery.mb.browser.min.js
+// = lib/jquery.mb.browser.min.js

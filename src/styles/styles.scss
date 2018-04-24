@@ -5,10 +5,19 @@
 @import "common/mixin";
 @import "common/fonts";
 @import "common/common";
-/*
-@import "common/btn";
 @import "common/form";
-*/
+@import "common/btn";
+
 /* blocks */
 @import "blocks/header";
 @import "blocks/menu";
+
+.modal-order {
+    max-width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    .btn {
+        width: 100%;
+        margin-top: 18px;
+    }
+}

@@ -4,14 +4,13 @@
 .ui-placeholder {
     @include hidePlaceholder {
         opacity: 1;
-        font-weight: 300;
-        color: #C6C6C6;
+        color: rgba($mainColor, .5);
+        text-align: center;
         transition: opacity 0.3s ease;
-        font-family: akrobat, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Segoe UI Symbol";
-        @include font-size(18px);
+        font-family: 'Sylfaen', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Segoe UI Symbol";
+        @include font-size(20px);
     }
     &:focus {
-        border-color: rgba(#fff, .7);
         @include hidePlaceholder {
             opacity: 0;
             transition: opacity 0.3s ease;
@@ -30,51 +29,23 @@ textarea.ui-field, textarea.form-control {
 }
 
 .ui-field {
-    height: 47px;
+    height: 57px;
     width: 100%;
     padding: 0 22px;
-    background: transparent;
-    color: #fff;
-    font-weight: 300;
+    color: $mainColor;
     display: block;
     outline: none;
-    text-transform: uppercase;
-    border: 1px solid rgba(#535350, .7);
-    transition: all .4s ease;
-    font-family: akrobat, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Segoe UI Symbol";
-    @include font-size(16px);
+    text-align: center;
+    border-width: 0;
+    border-bottom: 2px solid rgba($mainColor, .5);
+    transition: all .3s ease;
+    font-family: 'Sylfaen', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Segoe UI Symbol";
+    @include font-size(20px);
 }
 
-.field-filled {
-    .ui-field {
-        color: #fff;
-        border-color: #fff !important;
-    }
-    .has-error__text {
-        opacity: 0;
-    }
-}
-
-.has-error {
-    .ui-field {
-        border-color: $colorOrange;
-        @include hidePlaceholder {
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        &:focus + .has-error__text {
-            opacity: 0;
-        }
-    }
-    .has-error__text {
-        text-transform: uppercase;
-        position: absolute;
-        color: $colorOrange;
-        left: 22px;
-        top: 14px;
-        pointer-events: none;
-        @include font-size(16px);
-    }
+.field-filled .ui-field {
+    color: #fff;
+    border-color: #fff !important;
 }
 
 input::-webkit-contacts-auto-fill-button {
