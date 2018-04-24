@@ -1,5 +1,22 @@
-.presentation .btn-light {
-    max-width: 200px;
+.presentation {
+    .btn-light {
+        max-width: 200px;
+    }
+    .slick-dots {
+        bottom: 25px;
+        left: 50%;
+        width: auto;
+        transform: translateX(-50%);
+    }
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
 }
 
 .presentation-content {
