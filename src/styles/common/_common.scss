@@ -153,3 +153,21 @@ button, input, select, textarea {
         box-shadow: none;
     }
 }
+
+.modal-order {
+    max-width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    .btn {
+        width: 100%;
+        margin-top: 18px;
+    }
+}
+
+.title-section {
+    margin-bottom: 30px;
+    color: $colorLink;
+    line-height: 1;
+    text-transform: uppercase;
+    @include font-size(45px)
+}

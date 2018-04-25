@@ -12,14 +12,6 @@
     background: url(../img/bg/bg-about.png) no-repeat 90% 100%;
 }
 
-.about-company__title {
-    margin-bottom: 30px;
-    color: $colorLink;
-    line-height: 1;
-    text-transform: uppercase;
-    @include font-size(45px)
-}
-
 .about-company__text {
     margin-bottom: 100px;
     @include font-size(24px);

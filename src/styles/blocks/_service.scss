@@ -7,14 +7,6 @@
     @include font-size(24px);
 }
 
-.service-title {
-    margin-bottom: 25px;
-    line-height: 1;
-    color: $colorLink;
-    text-transform: uppercase;
-    @include font-size(45px);
-}
-
 .service-second {
     padding-right: 145px;
     display: flex;
