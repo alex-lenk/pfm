@@ -1,4 +1,5 @@
 .service {
+    margin-bottom: 100px;
     position: relative;
 }
 
@@ -25,17 +26,9 @@
 }
 
 .service-list {
-    margin: 0 -10px;
-    padding-left: 0;
+    margin-bottom: 0;
     list-style: none;
     display: flex;
-}
-
-.service-list__item {
-    max-width: 25%;
-    padding-right: 10px;
-    padding-left: 10px;
-    flex-basis: 25%;
 }
 
 .service-list__inner {
