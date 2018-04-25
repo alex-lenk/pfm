@@ -9,24 +9,24 @@
     &::after {
         width: 16px;
         height: 2px;
-        background-color: #fff;
+        background-color: $colorLink;
         position: absolute;
         right: 100%;
         content: '';
     }
     &::before {
         top: 7px;
-        box-shadow: 0 16px 0 #fff, 0 33px 0 #fff;
+        box-shadow: 0 16px 0 $colorLink, 0 33px 0 $colorLink;
     }
     &::after {
         bottom: 12px;
-        box-shadow: 0 -15px 0 #fff, 0 -30px 0 #fff;
+        box-shadow: 0 -15px 0 $colorLink, 0 -30px 0 $colorLink;
     }
 }
 
 .decoration-number {
     padding-left: 18px;
-    color: #fff;
+    color: $colorLink;
     display: block;
     @include font-size(18px);
 }
@@ -40,7 +40,7 @@
     &::before {
         width: 45px;
         height: 2px;
-        background-color: #fff;
+        background-color: $colorLink;
         position: absolute;
         right: 100%;
         content: '';
@@ -83,5 +83,31 @@
     padding-top: 82px;
     &::before {
         top: 86px;
+    }
+}
+
+.decoration-white {
+    &::before,
+    &::after {
+        background-color: #fff;
+    }
+    &::before {
+        box-shadow: 0 16px 0 #fff, 0 33px 0 #fff;
+    }
+    &::after {
+        box-shadow: 0 -15px 0 #fff, 0 -30px 0 #fff;
+    }
+    .decoration-number {
+        color: #fff;
+    }
+    .decoration-01,
+    .decoration-02,
+    .decoration-03,
+    .decoration-04,
+    .decoration-05,
+    .decoration-06 {
+        &::before {
+            background-color: #fff;
+        }
     }
 }
