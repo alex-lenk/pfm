@@ -10,6 +10,10 @@
         .general-decor__plus {
             width: 100%;
             height: 100%;
+            &::after,
+            &::before {
+                opacity: 0;
+            }
         }
         .general-decor__text {
             color: #a1c4f6;
@@ -48,6 +52,7 @@
         background-color: #fff;
         position: absolute;
         content: '';
+        transition: opacity .4s ease;
     }
     &::before {
         width: 9px;
