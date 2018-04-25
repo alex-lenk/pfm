@@ -1,12 +1,52 @@
 .footer {
-    background-color: #171817;
-    color: #C6C6C6;
-    @include font-size(15px);
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
-.footer-wrap {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.footer-logo {
+    max-width: 136px;
+}
+
+.footer-social {
+    margin: 0 auto;
+    flex: none;
     display: flex;
     align-items: center;
+    align-self: flex-start;
+}
+
+.footer-social__list {
+    display: flex;
+    li {
+        margin-left: 20px;
+    }
+    svg {
+        width: 25px;
+        height: 25px;
+        fill: $colorLink;
+        transition: fill .4s ease;
+    }
+    .fb {
+        width: 26px;
+        height: 26px;
+    }
+    .vk {
+        width: 20px;
+        height: 21px;
+    }
+    a:hover svg {
+        fill: #3260a4;
+    }
+}
+
+.footer-contacts {
+    padding-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    left: 0;
+}
+
+.footer-copy {
+    padding-top: 15px;
+    color: #595959;
 }
