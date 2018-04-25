@@ -1,0 +1,21 @@
+.case {
+    position: relative;
+}
+
+.case-list {
+    padding-top: 125px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.case-item {
+    padding: 28px 15px;
+    .general-decor__title {
+        margin-bottom: 15px;
+        line-height: 1;
+    }
+}
+
+.case-text {
+    color: $mainColor;
+}
