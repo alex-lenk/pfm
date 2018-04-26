@@ -19,3 +19,8 @@
 @import "blocks/faq";
 @import "blocks/home-contacts";
 @import "blocks/footer";
+
+.map {
+    height: 240px;
+    z-index: 1;
+}

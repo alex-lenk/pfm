@@ -19,11 +19,14 @@
 /* 2. svgxuse.min.js */
 //= lib/svgxuse.min.js
 
-/* 6. slick.min.js */
+/* 3. slick.min.js */
 //= ../../bower_components/slick-carousel/slick/slick.min.js
 
-/* 7. jquery.fancybox.min.js */
+/* 4. jquery.fancybox.min.js */
 // = ../../bower_components/fancybox/dist/jquery.fancybox.min.js
 
-/* 8. bootstrap.min.js */
+/* 5. bootstrap.min.js */
 //= lib/bootstrap.min.js
+
+/* 6. Google Map Plugin */
+//= lib/gmap3.js
