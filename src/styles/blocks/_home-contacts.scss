@@ -1,0 +1,53 @@
+.home-contacts__form {
+    padding-top: 40px;
+    .title-section {
+        margin-bottom: 20px;
+    }
+}
+
+.home-contacts__button {
+    padding-top: 20px;
+    text-align: right;
+    .btn {
+        min-width: 200px;
+    }
+}
+
+.home-contacts__support {
+    min-height: 365px;
+    padding-left: 115px;
+    padding-right: 115px;
+    position: relative;
+    color: #fff;
+    background-color: $colorLink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a {
+        color: #fff;
+    }
+    .decoration {
+        top: 50%;
+        right: 24px;
+        transform: translateY(-50%);
+    }
+}
+
+.home-contacts__address {
+    .location {
+        width: 56px;
+        height: 60px;
+        left: -79px;
+        top: -8px;
+        fill: #fff;
+        stroke: #fff;
+        position: absolute;
+    }
+    position: relative;
+}
+
+.home-contacts__phone {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    @include font-size(35px);
+}

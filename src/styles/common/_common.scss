@@ -158,6 +158,9 @@ button, input, select, textarea {
     max-width: 253px;
     margin-left: auto;
     margin-right: auto;
+    .ui-field {
+        text-align: center;
+    }
     .btn {
         width: 100%;
         margin-top: 18px;
@@ -170,4 +173,11 @@ button, input, select, textarea {
     line-height: 1;
     text-transform: uppercase;
     @include font-size(45px)
+}
+
+.see-all {
+    text-align: center;
+    .btn {
+        min-width: 250px;
+    }
 }
