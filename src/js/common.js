@@ -177,3 +177,10 @@ $(document).ready(function () {
             });
     }
 });
+
+//initiating jQuery
+jQuery(function ($) {
+    $(document).ready(function () {
+        $('.menu-inner').stickUp();
+    });
+});

@@ -1,7 +1,31 @@
 .menu-wrap {
+    min-height: 96px;
+    .container {
+        display: flex;
+    }
+}
+
+.menu-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    position: relative;
+    background-color: #fff;
+    transition: all .4s ease;
+}
+
+.menu-logo {
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
 }
 
 .menu {
+    flex: 1;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -9,7 +33,7 @@
 
 .menu-item {
     width: 100%;
-    max-width: 200px;
+    max-width: 14%;
     display: inline-block;
     text-transform: uppercase;
     line-height: 1;
@@ -51,5 +75,14 @@
     &::after {
         height: 100%;
         width: 100%;
+    }
+}
+
+.isStuck {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    .menu-logo {
+        width: 185px;
+        margin-right: 50px;
+        opacity: 1;
     }
 }

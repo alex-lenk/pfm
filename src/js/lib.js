@@ -28,5 +28,4 @@
 /* 5. bootstrap.min.js */
 //= lib/bootstrap.min.js
 
-/* 6. Google Map Plugin */
-//= lib/gmap3.js
+//= lib/stickUp.min.js
