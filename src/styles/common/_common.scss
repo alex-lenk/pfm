@@ -140,6 +140,38 @@ h6, .h6, h5, .h5 {
             }
         }
     }
+    
+    &-tired {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        li {
+            padding-left: 37px;
+            position: relative;
+            &::before {
+                width: 17px;
+                height: 1px;
+                background-color: $colorLink;
+                position: absolute;
+                top: 11px;
+                left: 0;
+                content: '';
+            }
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    &-half {
+        line-height: 1.2;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            padding-right: 10px;
+            width: 50%;
+            flex: none;
+        }
+    }
 }
 
 .clearfix {
