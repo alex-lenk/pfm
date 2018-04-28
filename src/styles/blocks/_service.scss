@@ -14,6 +14,10 @@
 
 .service-second {
     display: flex;
+    .package-services {
+      fill: $colorLink;
+      stroke: $colorLink;
+    }
 }
 
 .package-services {
