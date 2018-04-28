@@ -20,6 +20,7 @@
 @import "blocks/home-contacts";
 @import "blocks/footer";
 @import "blocks/breadcrumbs";
+@import "blocks/help-following";
 
 .map {
     height: 240px;
@@ -43,39 +44,4 @@
 
 .page-content {
     margin-bottom: 100px;
-}
-
-.help-following {
-    padding: 30px 0;
-    background-color: #e6e6e6;
-}
-
-.help-following__item {
-    padding-right: 10px;
-    line-height: 1.2;
-    display: flex;
-    svg {
-        height: 38px;
-        flex: none;
-    }
-}
-
-.budgeting-system {
-    width: 50px;
-    margin-right: 16px;
-}
-
-.plan-analysis {
-    width: 30px;
-    margin-right: 23px;
-}
-
-.chain-analysis {
-    width: 44px;
-    margin-right: 21px;
-}
-
-.kpi {
-    width: 41px;
-    margin-right: 25px;
 }

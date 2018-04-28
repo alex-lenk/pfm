@@ -1,9 +1,15 @@
+.cases-page .case-item {
+    margin-bottom: 20px;
+}
+
 .case {
     position: relative;
+    .title-section {
+        margin-bottom: 155px;
+    }
 }
 
 .case-list {
-    padding-top: 125px;
     margin-bottom: 65px;
     list-style: none;
 }
