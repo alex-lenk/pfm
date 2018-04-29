@@ -1,10 +1,8 @@
 .header {
     margin-bottom: 30px;
-    padding-top: 19px;
 }
 
 .header-info {
-    margin-bottom: 10px;
     display: flex;
 }
 
@@ -13,7 +11,7 @@
 }
 
 .header-contacts {
-    padding-top: 13px;
+    padding-top: 38px;
     margin-right: auto;
     margin-left: auto;
     line-height: 1;
@@ -49,7 +47,7 @@
 }
 
 .header-lang {
-    padding-top: 10px;
+    padding-top: 35px;
     display: flex;
     text-transform: uppercase;
     @include font-size(24px);

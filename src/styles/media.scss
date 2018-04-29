@@ -7,14 +7,60 @@
 (min-resolution: 192dpi) {
 }
 
-@media (max-width: 959px) {
+@media (max-width: 1439px) {
+    .advantages-company {
+        margin-right: -20px;
+        margin-left: auto;
+    }
 }
 
 //*********************************
 
-@media (min-width: 1170px) {
+@media (min-width: 1440px) {
+    .menu-item {
+        max-width: 15%;
+    }
+}
+
+@media (min-width: 768px) {
     .menu-toggle {
         display: none;
+    }
+}
+
+//*********************************
+
+@media (min-width: 1100px) and (max-width: 1439px) {
+    .isStuck .menu-item {
+        max-width: 18%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+    .header-logo {
+        width: 216px;
+    }
+    
+    .menu-item {
+        max-width: 19%;
+    }
+    
+    .isStuck {
+        .menu {
+            align-items: center;
+            justify-content: space-between;
+        }
+        .menu-item {
+            max-width: none;
+            flex: 0;
+        }
+        .menu-logo {
+            width: 150px;
+            margin-right: 20px;
+        }
+        .menu-link {
+            padding: 14px 10px 13px;
+        }
     }
 }
 
