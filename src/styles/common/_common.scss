@@ -103,6 +103,15 @@ h6, .h6, h5, .h5 {
     }
 }
 
+.color {
+    &-blue {
+        color: #124b9b
+    }
+    &-gray {
+        color: #595959;
+    }
+}
+
 .pull-left {
     float: left;
 }
@@ -135,14 +144,15 @@ h6, .h6, h5, .h5 {
                 content: '';
             }
             &:not(:last-child) {
-                margin-bottom: 3px;
+                margin-bottom: 5px;
             }
         }
     }
-
+    
     &-tired {
         padding-left: 0;
         list-style: none;
+        overflow: hidden;
         li {
             padding-left: 37px;
             position: relative;
@@ -173,12 +183,14 @@ h6, .h6, h5, .h5 {
     &-tick {
         padding-left: 0;
         list-style: none;
+        overflow: hidden;
         li {
+            margin-bottom: 10px;
             padding-left: 45px;
             position: relative;
-          &:not(:last-child) {
-            margin-bottom: 20px;
-          }
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
             &::before {
                 width: 21px;
                 height: 11px;
@@ -190,6 +202,55 @@ h6, .h6, h5, .h5 {
                 display: block;
                 content: '';
                 transform: rotate(-47deg);
+            }
+        }
+    }
+    &-latin {
+        padding-left: 0;
+        list-style: none;
+        li {
+            margin-bottom: 10px;
+            &::before {
+                margin-right: 5px;
+                width: 1em;
+                text-align: right;
+                display: inline-block;
+            }
+            &:first-child::before {
+                content: 'a)';
+            }
+            &:nth-child(2)::before {
+                content: 'b)';
+            }
+            &:nth-child(3)::before {
+                content: 'c)';
+            }
+            &:nth-child(4)::before {
+                content: 'd)';
+            }
+            &:nth-child(5)::before {
+                content: 'e)';
+            }
+            &:nth-child(6)::before {
+                content: 'f)';
+            }
+        }
+    }
+    &-items {
+        padding-left: 0;
+        list-style: none;
+        li {
+            padding-left: 20px;
+            position: relative;
+            &::before {
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: $mainColor;
+                position: absolute;
+                top: 8px;
+                left: 0;
+                content: '';
             }
         }
     }
