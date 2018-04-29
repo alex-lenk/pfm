@@ -14,6 +14,29 @@
     }
 }
 
+@media (max-width: 1099px) {
+    .decoration {
+        display: none;
+    }
+    
+    /* ******************* */
+    
+    .about-company {
+        background-size: contain;
+    }
+    .advantages-company {
+        display: flex;
+        align-items: center;
+    }
+    .advantages-company__list {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .advantages-company__item {
+        max-width: 50%;
+    }
+}
+
 //*********************************
 
 @media (min-width: 1440px) {
@@ -25,6 +48,12 @@
 @media (min-width: 1100px) {
     .presentation-content {
         padding-left: 60px;
+    }
+    
+    /* ******************* */
+    
+    .advantages-company {
+        padding: 130px 20px 0;
     }
 }
 
