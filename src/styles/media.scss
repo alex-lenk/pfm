@@ -45,14 +45,19 @@
             margin-bottom: 20px;
         }
     }
-    .service-list li {
+    
+    /* ******************* */
+    
+    .service-list li,
+    .case-item,
+    .faq-item {
         margin-bottom: 20px;
     }
     
     /* ******************* */
     
-    .case-item {
-        margin-bottom: 20px;
+    .faq-pre-title {
+        margin-bottom: 25px;
     }
 }
 
@@ -86,6 +91,15 @@
     .case .title-section {
         margin-bottom: 155px;
     }
+    
+    /* ******************* */
+    
+    .faq-pre-title {
+        margin-bottom: 75px;
+    }
+    
+    /* ******************* */
+    
 }
 
 @media (min-width: 768px) {
