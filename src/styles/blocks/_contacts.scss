@@ -1,11 +1,11 @@
-.home-contacts__form {
+.contacts-form {
     padding-top: 40px;
     .title-section {
         margin-bottom: 20px;
     }
 }
 
-.home-contacts__button {
+.contacts-button {
     padding-top: 20px;
     text-align: right;
     .btn {
@@ -13,10 +13,7 @@
     }
 }
 
-.home-contacts__support {
-    min-height: 365px;
-    padding-left: 115px;
-    padding-right: 115px;
+.contacts-support {
     position: relative;
     color: #fff;
     background-color: $colorLink;
@@ -33,7 +30,7 @@
     }
 }
 
-.home-contacts__address {
+.contacts-address {
     .location {
         width: 56px;
         height: 60px;
@@ -46,7 +43,7 @@
     position: relative;
 }
 
-.home-contacts__phone {
+.contacts-phone {
     margin-top: 25px;
     margin-bottom: 15px;
     @include font-size(35px);

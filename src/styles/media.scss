@@ -59,6 +59,21 @@
     .faq-pre-title {
         margin-bottom: 25px;
     }
+    
+    /* ******************* */
+    
+    .contacts-support {
+        padding: 20px;
+    }
+    .contacts-address {
+        padding-left: 55px;
+        .location {
+            left: -10px;
+        }
+    }
+    
+    /* ******************* */
+    
 }
 
 //*********************************
@@ -100,6 +115,13 @@
     
     /* ******************* */
     
+    .contacts-support {
+        padding-left: 115px;
+        padding-right: 115px;
+    }
+    
+    /* ******************* */
+    
 }
 
 @media (min-width: 768px) {
@@ -113,6 +135,15 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    
+    /* ******************* */
+    
+    .contacts-support {
+        min-height: 365px;
+    }
+    
+    /* ******************* */
+    
 }
 
 //*********************************
