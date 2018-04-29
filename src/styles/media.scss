@@ -35,6 +35,19 @@
     .advantages-company__item {
         max-width: 50%;
     }
+    
+    /* ******************* */
+    
+    .service-second {
+        flex-direction: column;
+        align-items: center;
+        svg {
+            margin-bottom: 20px;
+        }
+    }
+    .service-list li {
+        margin-bottom: 20px;
+    }
 }
 
 //*********************************
@@ -55,6 +68,13 @@
     .advantages-company {
         padding: 130px 20px 0;
     }
+    
+    /* ******************* */
+    
+    .home .service-second {
+        padding-right: 145px;
+    }
+    
 }
 
 @media (min-width: 768px) {
