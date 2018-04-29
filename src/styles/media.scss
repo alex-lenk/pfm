@@ -22,9 +22,22 @@
     }
 }
 
+@media (min-width: 1100px) {
+    .presentation-content {
+        padding-left: 60px;
+    }
+}
+
 @media (min-width: 768px) {
     .menu-toggle {
         display: none;
+    }
+    
+    /* ******************* */
+    
+    .presentation-content {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 
@@ -40,11 +53,9 @@
     .header-logo {
         width: 216px;
     }
-    
     .menu-item {
         max-width: 19%;
     }
-    
     .isStuck {
         .menu {
             align-items: center;
@@ -61,6 +72,16 @@
         .menu-link {
             padding: 14px 10px 13px;
         }
+        .menu-link::before,
+        .menu-link::after {
+            display: none;
+        }
+    }
+    
+    /* ******************* */
+    
+    .presentation-content {
+        padding-left: 20px;
     }
 }
 
