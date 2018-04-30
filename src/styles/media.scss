@@ -80,7 +80,9 @@
     .header-contacts,
     .header-lang,
     .menu,
-    .menu-logo {
+    .menu-logo,
+    .presentation,
+    .advantages-company {
         display: none;
     }
     
@@ -89,13 +91,13 @@
     }
     
     .menu-toggle {
-        margin-top: 25px;
+        margin-top: 31px;
         padding: 20px 0;
         &::before {
-            width: 57px;
-            height: 5px;
+            width: 30px;
+            height: 3px;
             background-color: $colorLink;
-            box-shadow: 0 20px 0 #124b9b, 0 -20px 0 #124b9b;
+            box-shadow: 0 10px 0 #124b9b, 0 -10px 0 #124b9b;
             display: block;
             content: '';
         }
@@ -137,7 +139,7 @@
             border-right-color: #ffffff;
         }
     }
-
+    
     .menu-close {
         width: 34px;
         height: 34px;
@@ -170,7 +172,7 @@
             transform: rotate(-47deg);
         }
     }
-
+    
     .header {
         .header-contacts {
             padding-top: 0;
@@ -201,13 +203,45 @@
     .header-contacts__icon {
         display: none;
     }
-
+    
+    .stuckMenu {
+        padding: 10px 0;
+        .container {
+            display: flex;
+        }
+        .menu-logo {
+            display: block;
+        }
+        .menu-toggle {
+            margin-top: 15px;
+            margin-left: auto;
+        }
+    }
     .menu-open {
         .menu-close,
         .menu,
         .header-contacts {
             transform: translateX(0);
         }
+    }
+    
+    .about-company {
+        margin: 0 -20px;
+        padding: 100px 20px;
+        color: #fff;
+        background: url(../img/bg/bg-about-xs.jpg) no-repeat top center;
+        background-size: cover;
+        .title-section {
+            color: #fff;
+        }
+        .btn-default {
+            color: #ffffff;
+            background-color: transparent;
+            border-color: #fff;
+        }
+    }
+    .about-company__text {
+        margin-bottom: 50px;
     }
 }
 
@@ -275,7 +309,7 @@
     }
     
     /* ******************* */
-
+    
     .menu-inner {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -304,16 +338,25 @@
     }
     
     /* ******************* */
-
+    
     .header-contacts__email {
         display: none;
     }
-
+    
     /* ******************* */
-
+    
     .menu-close {
         display: none;
     }
+    
+    .about-company {
+        width: 39%;
+        min-height: 600px;
+        background: url(../img/bg/bg-about.png) no-repeat 90% 100%;
+    }
+    
+    /* ******************* */
+    
 }
 
 //*********************************
