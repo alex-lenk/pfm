@@ -4,6 +4,19 @@ $(document).ready(function () {
         slidesToShow: 1,
         arrows: false
     });
+
+    var menuOpen = 'menu-open';
+    $('.menu-toggle').click(
+        function () {
+            $('body').addClass(menuOpen);
+        }
+    );
+
+    $('.menu-close').click(
+        function () {
+            $('body').removeClass(menuOpen);
+        }
+    );
 });
 
 //initiating jQuery
