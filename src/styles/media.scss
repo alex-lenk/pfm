@@ -76,6 +76,64 @@
     
 }
 
+@media (max-width: 767px) {
+    .header-contacts,
+    .header-lang,
+    .menu,
+    .menu-logo {
+        display: none;
+    }
+    
+    .header-logo {
+        width: 251px;
+    }
+    
+    .menu-toggle {
+        padding: 20px 0;
+        &::before {
+            width: 57px;
+            height: 5px;
+            background-color: $colorLink;
+            box-shadow: 0 20px 0 #124b9b, 0 -20px 0 #124b9b;
+            display: block;
+            content: '';
+        }
+    }
+    .menu-wrap {
+        position: absolute;
+        top: 4px;
+        right: 0;
+    }
+    .menu {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 150px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #114a9b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .menu-item {
+        max-width: 340px;
+    }
+    .menu-link {
+        color: #fff;
+        @include font-size(30px);
+        &::before {
+            border-top-color: #ffffff;
+            border-left-color: #ffffff;
+        }
+        &::after {
+            border-bottom-color: #ffffff;
+            border-right-color: #ffffff;
+        }
+    }
+}
+
 //*********************************
 
 @media (min-width: 1440px) {
@@ -125,8 +183,24 @@
 }
 
 @media (min-width: 768px) {
+    .header {
+        margin-bottom: 30px;
+    }
+    
+    .header-logo {
+        width: 316px;
+    }
+    
+    /* ******************* */
+    
     .menu-toggle {
         display: none;
+    }
+    .menu-wrap {
+        min-height: 96px;
+        .container {
+            display: flex;
+        }
     }
     
     /* ******************* */
@@ -188,6 +262,15 @@
     .presentation-content {
         padding-left: 20px;
     }
+    
+    /* ******************* */
+    
+    footer .header-contacts__phone {
+        @include font-size(25px);
+    }
+    
+    /* ******************* */
+    
 }
 
 /* ----------- iPad Pro ----------- */
