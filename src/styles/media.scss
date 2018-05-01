@@ -15,6 +15,11 @@
 }
 
 @media (max-width: 1099px) {
+    .well {
+        margin-bottom: 20px;
+        @include clearfix;
+    }
+    
     .decoration {
         display: none;
     }
@@ -245,6 +250,27 @@
     .about-company__text {
         margin-bottom: 50px;
     }
+    
+    .footer-social {
+        margin-right: 0;
+    }
+    
+    .why-us-img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .contacts-form {
+        margin-bottom: 30px;
+    }
+    .contacts-support {
+        margin: 0 -20px;
+    }
+    
+    .footer-social {
+        margin-left: auto;
+    }
 }
 
 @media (max-width: 374px) {
@@ -359,6 +385,24 @@
     
     /* ******************* */
     
+    .why-us-img {
+        width: 49%;
+        margin-bottom: 30px;
+        margin-right: 20px;
+        float: left;
+    }
+}
+
+@media (min-width: 576px) {
+    .footer-social {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+    }
+    .footer-social__list {
+        margin-left: 20px;
+    }
 }
 
 //*********************************

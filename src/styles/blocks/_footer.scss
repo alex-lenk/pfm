@@ -8,17 +8,13 @@
 }
 
 .footer-social {
-    margin: 0 auto;
     flex: none;
-    display: flex;
-    align-items: center;
-    align-self: flex-start;
 }
 
 .footer-social__list {
     display: flex;
-    li {
-        margin-left: 20px;
+    li:not(:last-child) {
+        margin-right: 20px;
     }
     svg {
         width: 25px;
