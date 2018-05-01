@@ -56,9 +56,23 @@
     
     /* ******************* */
     
+    .case-page__text {
+        padding-right: 55px;
+    }
 }
 
 @media (min-width: 768px) {
+    .list-half {
+        line-height: 1.2;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            padding-right: 10px;
+            width: 50%;
+            flex: none;
+        }
+    }
+    
     .header {
         margin-bottom: 30px;
     }
@@ -121,6 +135,20 @@
         margin-bottom: 30px;
         margin-right: 20px;
         float: left;
+    }
+    
+    .case-page__left {
+        width: 25%;
+        .package-services {
+            margin: 0 auto;
+        }
+    }
+    
+    .faq-answer {
+        padding: 35px;
+        bottom: 0;
+        right: 0;
+        position: absolute;
     }
 }
 
@@ -389,6 +417,42 @@
     .why-us-img {
         margin-bottom: 20px;
     }
+    
+    .case-page__intro {
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        flex-direction: column;
+    }
+    .case-page__title {
+        top: 85px;
+        left: 180px;
+        padding-right: 20px;
+        position: absolute;
+    }
+    .case-page__left {
+        margin-bottom: 20px;
+    }
+    
+    .faq-answer {
+        height: 0;
+    }
+    .faq-answer__title {
+        margin-top: 15px;
+    }
+    .faq-item {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        .general-decor__title {
+            text-align: center;
+        }
+        &:hover {
+            .faq-answer {
+                height: 100%;
+            }
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -407,6 +471,16 @@
 @media (max-width: 374px) {
     .header-logo {
         width: 180px;
+    }
+    
+    .footer-logo {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .footer-social {
+        margin-bottom: 10px;
+        margin-left: 0;
     }
 }
 

@@ -35,27 +35,12 @@
     background-color: $colorLink;
 }
 
-.case-page__left {
-    width: 25%;
-    flex: none;
-    display: flex;
-    .package-services {
-        margin: 0 auto;
-    }
-}
 
 .case-page__title {
     margin-bottom: 20px;
     text-transform: uppercase;
     color: #fff;
     @include font-size(20px);
-}
-
-.case-page__text {
-    padding-right: 55px;
-    line-height: 1.2;
-    color: #a1c4f6;
-    flex: 1;
 }
 
 .case-page__h2 {
@@ -77,12 +62,8 @@
 }
 
 .case-page__left {
-    width: 25%;
     flex: none;
     display: flex;
-    .package-services {
-        margin: 0 auto;
-    }
 }
 
 .case-page__title {
@@ -93,7 +74,6 @@
 }
 
 .case-page__text {
-    padding-right: 55px;
     line-height: 1.2;
     color: #a1c4f6;
     flex: 1;

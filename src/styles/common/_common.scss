@@ -170,16 +170,6 @@ h6, .h6, h5, .h5 {
             }
         }
     }
-    &-half {
-        line-height: 1.2;
-        display: flex;
-        flex-wrap: wrap;
-        li {
-            padding-right: 10px;
-            width: 50%;
-            flex: none;
-        }
-    }
     &-tick {
         padding-left: 0;
         list-style: none;
