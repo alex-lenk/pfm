@@ -238,6 +238,11 @@
     
     /* ******************* */
     
+    .package-services__icon {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -248,7 +253,8 @@
     .presentation,
     .advantages-company,
     .service-content__text,
-    .service-second {
+    .service-second,
+    .breadcrumbs {
         display: none;
     }
     
@@ -447,11 +453,13 @@
         .general-decor__title {
             text-align: center;
         }
-        &:hover {
-            .faq-answer {
-                height: 100%;
-            }
+        &:hover .faq-answer {
+            height: 100%;
         }
+    }
+    
+    .package-services-wrap .col-sm-4 {
+        margin-bottom: 40px;
     }
 }
 
@@ -493,6 +501,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 1099px) {
+    .package-services-text {
+        margin-bottom: 10px;
+    }
+    
     .header-logo {
         width: 216px;
     }
@@ -535,6 +547,18 @@
     
     /* ******************* */
     
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .package-services-wrap .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .package-services-text {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 /* ----------- iPad Pro ----------- */

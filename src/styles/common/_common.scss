@@ -195,6 +195,31 @@ h6, .h6, h5, .h5 {
             }
         }
     }
+    &-circle-tick {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        li {
+            padding-left: 40px;
+            position: relative;
+            color: #707070;
+            line-height: 1.2;
+            @include font-size(18px);
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+            &::before {
+                width: 17px;
+                height: 17px;
+                top: 0;
+                left: 0;
+                position: absolute;
+                background: url(../img/tick.svg) no-repeat center;
+                background-size: contain;
+                content: '';
+            }
+        }
+    }
     &-latin {
         padding-left: 0;
         list-style: none;

@@ -1,0 +1,55 @@
+.package-services-wrap {
+    padding-top: 20px;
+}
+
+.package-services__icon {
+    width: 126px;
+    height: 145px;
+    margin-left: -15px;
+}
+
+.package-services-text {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.package-services-item {
+    height: 100%;
+    background-color: #e7e6e7;
+}
+
+.package-services-start .package-services-title {
+    background-color: #63a344;
+}
+
+.package-services-business .package-services-title {
+    background-color: #3090c6;
+}
+
+.package-services-stable .package-services-title {
+    background-color: #979190;
+}
+
+.package-services-title {
+    margin: 0;
+    padding: 19px 20px 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    @include font-size(20px);
+}
+
+.package-services-inner {
+    padding: 25px 20px;
+    p {
+        margin-bottom: 0;
+        min-height: 145px;
+        line-height: 1.2;
+    }
+    hr {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-top: 2px solid #c7c7c7;
+    }
+}
