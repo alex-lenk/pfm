@@ -58,15 +58,11 @@
     z-index: 1050;
     -webkit-overflow-scrolling: touch;
     outline: 0;
-    text-align: center;
-    &:before {
-        content: "";
-        display: inline-block;
-        width: 1px;
-        height: 100%;
-        margin-left: -1px;
-        vertical-align: middle;
-    }
+}
+
+.modal-wrap {
+    height: 100%;
+    display: flex;
 }
 
 .modal.fade .modal-dialog {
@@ -94,8 +90,8 @@
 .modal-dialog {
     position: relative;
     width: auto;
-    margin: 10px;
-    display: inline-block;
+    margin: auto;
+    text-align: center;
 }
 
 .modal-content {

@@ -57,13 +57,29 @@
     }
 }
 
-.menu-link:hover,
-.menu-item__active .menu-link {
+.menu-link:hover{
     color: #929498;
     &::before,
     &::after {
         height: 100%;
         width: 100%;
+    }
+}
+
+.menu-item__active .menu-link {
+    color: $colorLink;
+    &::before,
+    &::after {
+        height: 100%;
+        width: 100%;
+    }
+    &::before {
+        border-top-color: $colorLink;
+        border-left-color: $colorLink;
+    }
+    &::after {
+        border-bottom-color: $colorLink;
+        border-right-color: $colorLink;
     }
 }
 
