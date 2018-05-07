@@ -10,6 +10,7 @@
 }
 
 .about-company__text {
+    padding-right: 20px;
     margin-bottom: 100px;
     @include font-size(24px);
 }
@@ -33,6 +34,7 @@
     margin-bottom: 25px;
     padding-right: 20px;
     color: #605f5f;
+    flex: 1 1 50%;
     svg {
         width: 72px;
         height: 72px;
