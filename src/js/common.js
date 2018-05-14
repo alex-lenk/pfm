@@ -2,7 +2,9 @@ $(document).ready(function () {
     $('.presentation-slider').slick({
         dots: true,
         slidesToShow: 1,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 4000
     });
 
     var menuOpen = 'menu-open';
