@@ -19,6 +19,10 @@ $(document).ready(function () {
             $('body').removeClass(menuOpen);
         }
     );
+
+
+    $('#modalPhone').inputmask({"mask": "+7(999) 999-99-99"});
+    $('#contactPhone').inputmask({"mask": "+7(999) 999-99-99"});
 });
 
 //initiating jQuery

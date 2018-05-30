@@ -6,6 +6,8 @@
  * 3.   slick.min.js
  * 4.   stickUp.min.js
  * 5.   bootstrap.min.js
+ * 6.   jquery.inputmask.bundle.min.js
+ * 7.   phone-ru.min.js
  *
  */
 
@@ -23,3 +25,9 @@
 
 /* 5. bootstrap.min.js */
 //= lib/bootstrap.min.js
+
+/* 6. jquery.inputmask.bundle.min.js */
+//= ../../bower_components/inputmask/dist/min/jquery.inputmask.bundle.min.js
+
+/* 7. phone-ru.min.js */
+//= lib/phone-ru.min.js
