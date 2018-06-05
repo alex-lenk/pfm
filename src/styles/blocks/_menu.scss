@@ -79,7 +79,11 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     .menu-logo {
         width: 185px;
+        height: 95px;
         margin-right: 50px;
         opacity: 1;
+        img {
+            max-height: 100%;
+        }
     }
 }
