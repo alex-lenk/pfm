@@ -1,14 +1,19 @@
-node_modules
-dist/
-.tmp
-app.yaml
-.idea
-bower_components
-LICENSE
-README.md
+# Файлы и папки операционной системы
 .DS_Store
-sources
 Thumbs.db
-package-lock.json
-build
-pfm.iml
+
+# Файлы редактора
+.idea
+*.sublime*
+.vscode
+
+# Вспомогательные файлы
+*.log*
+node_modules/
+reports/
+
+# Папка с собранными файлами проекта
+build/
+source/
+src_old/
+
