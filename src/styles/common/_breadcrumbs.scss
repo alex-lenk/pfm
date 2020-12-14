@@ -1,0 +1,35 @@
+.breadcrumbs__wrap {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 1;
+}
+
+.breadcrumbs {
+    color: #a3a2a2;
+    display: flex;
+    align-items: flex-end;
+
+    a {
+        color: #595959;
+    }
+
+    li {
+        position: relative;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+
+            &::after {
+                width: 6px;
+                height: 6px;
+                border-bottom: 2px solid $colorLink;
+                border-right: 2px solid $colorLink;
+                position: absolute;
+                right: -15px;
+                top: 6px;
+                content: '';
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}

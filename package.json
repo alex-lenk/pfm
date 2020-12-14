@@ -50,7 +50,6 @@
     "gulp-stylelint": "latest",
     "gulp-svgstore": "latest",
     "gulp-w3c-html-validator": "latest",
-    "husky": "latest",
     "lighthouse": "latest",
     "node-sass": "latest",
     "open": "latest",
@@ -74,10 +73,5 @@
     "src/js/**/*.js",
     "src/img/**/*.svg",
     "src/styles/**/*.{sass,scss}"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test && npm run build"
-    }
-  }
+  ]
 }

@@ -1,0 +1,65 @@
+.ui-placeholder {
+    @include hidePlaceholder {
+        opacity: 1;
+        color: rgba($mainColor, .5);
+        transition: opacity 0.3s ease;
+        font-family: 'Sylfaen', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif, 'Segoe UI Symbol';
+        @include font-size(20px);
+    }
+
+    &:focus {
+        @include hidePlaceholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+    }
+}
+
+.ui-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+textarea.ui-field {
+    padding-top: 12px;
+    min-height: 50px;
+}
+
+.ui-field {
+    height: 57px;
+    width: 100%;
+    padding: 0;
+    color: $mainColor;
+    display: block;
+    outline: none;
+    border-width: 0;
+    border-radius: 0;
+    border-bottom: 2px solid rgba($mainColor, .5);
+    transition: all .3s ease;
+    font-family: 'Sylfaen', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif, 'Segoe UI Symbol';
+    @include font-size(20px);
+}
+
+.field-filled .ui-field {
+    color: #fff;
+    border-color: #fff !important;
+}
+
+input::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    display: none !important;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s; /* выставляется желаемая задержка */
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #393939 !important;
+}

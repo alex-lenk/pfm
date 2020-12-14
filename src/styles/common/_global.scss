@@ -1,0 +1,20 @@
+@import "bootstrap-reboot";
+
+.list-unstyled {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+@import "../../local_modules/slick-carousel/slick/slick";
+@import "../../local_modules/slick-carousel/slick/slick-theme";
+*/

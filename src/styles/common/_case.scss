@@ -1,0 +1,91 @@
+.cases-page .case-item {
+    margin-bottom: 20px;
+}
+
+.case {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.case-list {
+    margin-bottom: 65px;
+    list-style: none;
+}
+
+.case-item {
+    padding: 15px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+
+    .general-decor__title {
+        margin-bottom: 15px;
+        line-height: 1;
+    }
+}
+
+.case-text {
+    color: $mainColor;
+}
+
+.case-page__intro {
+    margin-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    background-color: $colorLink;
+}
+
+
+.case-page__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    @include font-size(20px);
+}
+
+.case-page__h2 {
+    color: $colorLink;
+    @include font-size(20px);
+}
+
+.case-page__gray {
+    padding: 25px;
+    background-color: #e6e6e6;
+}
+
+.case-page__intro {
+    margin-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    background-color: $colorLink;
+}
+
+.case-page__left {
+    flex: none;
+    display: flex;
+}
+
+.case-page__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    @include font-size(20px);
+}
+
+.case-page__text {
+    line-height: 1.2;
+    color: #a1c4f6;
+    flex: 1;
+}
+
+.case-page__h2 {
+    color: $colorLink;
+    @include font-size(20px);
+}
+
+.case-page__gray {
+    padding: 25px;
+    background-color: #e6e6e6;
+}
