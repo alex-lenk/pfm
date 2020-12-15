@@ -1,7 +1,26 @@
-<svg width="42" height="40" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M20.9177 38.6595C31.5314 38.6595 40.1355 30.2705 40.1355 19.9221C40.1355 9.57372 31.5314 1.18469 20.9177 1.18469C10.304 1.18469 1.69983 9.57372 1.69983 19.9221C1.69983 30.2705 10.304 38.6595 20.9177 38.6595Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20.9177 35.5581C29.7746 35.5581 36.9546 28.5576 36.9546 19.9221C36.9546 11.2866 29.7746 4.28613 20.9177 4.28613C12.0608 4.28613 4.8808 11.2866 4.8808 19.9221C4.8808 28.5576 12.0608 35.5581 20.9177 35.5581Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23.2708 12.8717H18.6381V19.7316H23.2708C25.1236 19.7316 26.6261 18.1081 26.6261 16.3016C26.6261 14.4952 25.1236 12.8717 23.2708 12.8717Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.6381 17.4449V26.5915" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16.2928 22.7804H25.6739" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42 40" style="enable-background:new 0 0 42 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1F50A4;}
+</style>
+<g>
+	<path class="st0" d="M20.9,39.7c-11.1,0-20.2-8.9-20.2-19.7C0.7,9,9.8,0.2,20.9,0.2S41.1,9,41.1,19.9
+		C41.1,30.8,32.1,39.7,20.9,39.7z M20.9,2.2c-10,0-18.2,8-18.2,17.7s8.2,17.7,18.2,17.7s18.2-8,18.2-17.7S31,2.2,20.9,2.2z"/>
+</g>
+<g>
+	<path class="st0" d="M20.9,36.6c-9.4,0-17-7.5-17-16.6s7.6-16.6,17-16.6c9.4,0,17,7.5,17,16.6S30.3,36.6,20.9,36.6z M20.9,5.3
+		c-8.3,0-15,6.6-15,14.6s6.7,14.6,15,14.6c8.3,0,15-6.6,15-14.6S29.2,5.3,20.9,5.3z"/>
+</g>
+<g>
+	<path class="st0" d="M23.3,20.7h-4.6c-0.6,0-1-0.4-1-1v-6.9c0-0.6,0.4-1,1-1h4.6c2.4,0,4.4,2,4.4,4.4S25.6,20.7,23.3,20.7z
+		 M19.6,18.7h3.6c1.3,0,2.4-1.1,2.4-2.4s-1.1-2.4-2.4-2.4h-3.6V18.7z"/>
+</g>
+<g>
+	<path class="st0" d="M18.6,27.6c-0.6,0-1-0.4-1-1v-9.1c0-0.6,0.4-1,1-1s1,0.4,1,1v9.1C19.6,27.1,19.2,27.6,18.6,27.6z"/>
+</g>
+<g>
+	<path class="st0" d="M25.7,23.8h-9.4c-0.6,0-1-0.4-1-1s0.4-1,1-1h9.4c0.6,0,1,0.4,1,1S26.2,23.8,25.7,23.8z"/>
+</g>
 </svg>

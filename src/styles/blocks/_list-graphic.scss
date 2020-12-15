@@ -10,6 +10,7 @@
 }
 
 .list-graphic__icon {
+    fill: #1F50A4;
     width: var(--listGraphicIconWidth, 44px);
     height: var(--listGraphicIconHeight, 44px);
     position: absolute;
@@ -31,4 +32,35 @@
 .list-graphic__icon-03 {
     --listGraphicIconWidth: 42px;
     --listGraphicIconHeight: 42px;
+}
+
+.list-graphic__icon-05 {
+    --listGraphicIconWidth: 47px;
+    --listGraphicIconHeight: 46px;
+}
+
+.list-graphic__icon-06 {
+    --listGraphicIconWidth: 42px;
+    --listGraphicIconHeight: 42px;
+    top: -7px;
+}
+
+.list-graphic__icon-07 {
+    --listGraphicIconWidth: 50px;
+    --listGraphicIconHeight: 50px;
+    top: -3px;
+}
+
+.list-graphic__icon-08 {
+    top: 2px;
+}
+
+.list-graphic__icon-09 {
+    top: -1px;
+}
+
+.list-graphic__icon-10 {
+    --listGraphicIconWidth: 47px;
+    --listGraphicIconHeight: 47px;
+    top: -9px;
 }

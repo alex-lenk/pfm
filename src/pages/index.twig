@@ -1,0 +1,112 @@
+{% extends "components/layout.twig" %}
+{% set title = "ПФМ – полнофункциональная Фирма" %}
+{% block header %}{% include 'components/header.twig' %}{% endblock %}
+
+{% block content %}
+<section class="section-area container">
+    <h2 class="section-title">бюджет в Excel</h2>
+
+    <p class="section-text">
+        Одна из&nbsp;основных задач любого бизнеса&nbsp;&mdash; наладить систему измерения результатов деятельности.
+        Сейчас рынок предлагает большой набор вариантов для автоматизации. Однако за&nbsp;автоматизацией часто
+        скрывается запутанный функционал и&nbsp;большие расходы на&nbsp;обслуживание.
+        <br>
+        Кроме того, даже в&nbsp;автоматизированных
+        программах прогнозы необходимо забивать руками! Мы&nbsp;считаем, что бюджет компании можно вести в&nbsp;MS&nbsp;Excel
+        и&nbsp;не&nbsp;переплачивать
+    </p>
+
+    <div class="section-inner">
+        <div class="section-content">
+            <h3 class="section-content__title">что дает продукт?</h3>
+
+            <ul class="list-graphic list-unstyled">
+                <li class="list-graphic__item">
+                    <svg class="list-graphic__icon list-graphic__icon-04">
+                        <use xlink:href="/img/sprite.svg#icon-04"></use>
+                    </svg>
+                    План работы бизнеса на&nbsp;год
+                </li>
+                <li class="list-graphic__item">
+                    <svg class="list-graphic__icon list-graphic__icon-05">
+                        <use xlink:href="/img/sprite.svg#icon-05"></use>
+                    </svg>
+                    Понять&nbsp;&mdash; бизнес приносит прибыль или нет
+                </li>
+                <li class="list-graphic__item">
+                    <svg class="list-graphic__icon list-graphic__icon-06">
+                        <use xlink:href="/img/sprite.svg#icon-06"></use>
+                    </svg>
+                    Понять&nbsp;&mdash; хватит денег или нет
+                </li>
+                <li class="list-graphic__item">
+                    <svg class="list-graphic__icon list-graphic__icon-07">
+                        <use xlink:href="/img/sprite.svg#icon-07"></use>
+                    </svg>
+                    Узнать какова стоимость бизнеса и&nbsp;как ее&nbsp;увеличить
+                </li>
+                <li class="list-graphic__item">
+                    <svg class="list-graphic__icon list-graphic__icon-08">
+                        <use xlink:href="/img/sprite.svg#icon-08"></use>
+                    </svg>
+                    Увидеть фактические результаты работы бизнеса
+                </li>
+                <li class="list-graphic__item">
+                    <svg class="list-graphic__icon list-graphic__icon-09">
+                        <use xlink:href="/img/sprite.svg#icon-09"></use>
+                    </svg>
+                    Понять&nbsp;&mdash; почему вы&nbsp;не&nbsp;достигли запланированной прибыли
+                </li>
+                <li class="list-graphic__item">
+                    <svg class="list-graphic__icon list-graphic__icon-10">
+                        <use xlink:href="/img/sprite.svg#icon-10"></use>
+                    </svg>
+                    Работать в&nbsp;облаке
+                </li>
+            </ul>
+        </div>
+        <div class="section-service">
+            <div class="section-service__list">
+                <ul class="section-list list-unstyled">
+                    <li class="section-list__item">
+                        <svg class="section-list__icon">
+                            <use xlink:href="/img/sprite.svg#logo-ico"></use>
+                        </svg>
+                        Хотите отказаться от&nbsp;бесконечной пересылки файлов?
+                    </li>
+
+                    <li class="section-list__item">
+                        <svg class="section-list__icon">
+                            <use xlink:href="/img/sprite.svg#logo-ico"></use>
+                        </svg>
+                        Хотите иметь единый источник правды?
+                    </li>
+
+                    <li class="section-list__item">
+                        <svg class="section-list__icon">
+                            <use xlink:href="/img/sprite.svg#logo-ico"></use>
+                        </svg>
+                        Хотите, чтобы форсмажоры типа пандемии никак не&nbsp;влияли на&nbsp;работу фин департамента?
+                    </li>
+
+                    <li class="section-list__item">
+                        <svg class="section-list__icon">
+                            <use xlink:href="/img/sprite.svg#logo-ico"></use>
+                        </svg>
+                        Тогда мы&nbsp;создадим для вас бюджет в&nbsp;облаке для удаленной работы!
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section-service__order">
+                <div class="section-service__order-label">
+                    цена: от 50 000 рублей
+                </div>
+                <button type="button" class="section-service__order-btn btn btn-light">Заказать</button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block footer %}{% include 'components/footer.twig' %}{% endblock %}

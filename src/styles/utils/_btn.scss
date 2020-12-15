@@ -12,7 +12,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 
     &-default {
         min-width: 164px;
@@ -41,13 +43,17 @@
 
     &-light {
         min-width: 164px;
-        height: 57px;
+        height: 50px;
         padding: 0 40px;
         color: #fff;
-        border: 2px solid #fff;
+        border: 1px solid #fff;
         position: relative;
         z-index: 1;
-        @include font-size(18px);
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
 
         &:disabled {
             cursor: default;
@@ -56,7 +62,7 @@
 
         &:hover {
             color: $colorLink;
-            background-color: #fff;
+            box-shadow: 0 0 40px 40px #fff inset;
         }
     }
 }

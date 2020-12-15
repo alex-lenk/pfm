@@ -1,12 +1,47 @@
-<svg width="50" height="43" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M37.4596 22.7181H33.5327V29.052H37.4596C39.1357 29.052 40.4946 27.5249 40.4946 25.8851C40.4946 24.2453 39.1357 22.7181 37.4596 22.7181Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M33.5327 26.9408V34.6822" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M31.3746 31.8671H39.2875" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24.9003 35.3859H1.8808V6.53149H35.6907V15.6805" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M31.4753 16.6981C32.7327 14.0139 34.7052 9.60411 35.6907 7.49915" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21.3035 20.6068H25.6197" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M2.56201 7.64978C4.32804 11.1123 9.17005 20.6068 9.17005 20.6068H17.7067" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20.5842 19.1992H17.7067V24.1256H20.5842V19.1992Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.6712 5.8277V1.6051H25.6197V6.53146" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M35.6295 41.1976C42.7057 41.1976 48.442 35.5856 48.442 28.6628C48.442 21.7401 42.7057 16.1281 35.6295 16.1281C28.5534 16.1281 22.817 21.7401 22.817 28.6628C22.817 35.5856 28.5534 41.1976 35.6295 41.1976Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 43" style="enable-background:new 0 0 50 43;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1F50A4;}
+</style>
+<g>
+	<path class="st0" d="M37.5,30.1h-3.9c-0.6,0-1-0.4-1-1v-6.3c0-0.6,0.4-1,1-1h3.9c2.2,0,4,1.9,4,4.2S39.6,30.1,37.5,30.1z
+		 M34.5,28.1h2.9c1.1,0,2-1,2-2.2s-1-2.2-2-2.2h-2.9V28.1z"/>
+</g>
+<g>
+	<path class="st0" d="M33.5,35.7c-0.6,0-1-0.4-1-1v-7.7c0-0.6,0.4-1,1-1s1,0.4,1,1v7.7C34.5,35.2,34.1,35.7,33.5,35.7z"/>
+</g>
+<g>
+	<path class="st0" d="M39.3,32.9h-7.9c-0.6,0-1-0.4-1-1s0.4-1,1-1h7.9c0.6,0,1,0.4,1,1S39.8,32.9,39.3,32.9z"/>
+</g>
+<g>
+	<path class="st0" d="M24.9,36.4h-23c-0.6,0-1-0.4-1-1V6.5c0-0.6,0.4-1,1-1h33.8c0.6,0,1,0.4,1,1v9.1c0,0.6-0.4,1-1,1s-1-0.4-1-1
+		V7.5H2.9v26.9h22c0.6,0,1,0.4,1,1S25.5,36.4,24.9,36.4z"/>
+</g>
+<g>
+	<path class="st0" d="M31.5,17.7c-0.1,0-0.3,0-0.4-0.1c-0.5-0.2-0.7-0.8-0.5-1.3c0.7-1.4,1.5-3.3,2.3-5.1c0.7-1.6,1.4-3.1,1.9-4.1
+		c0.2-0.5,0.8-0.7,1.3-0.5c0.5,0.2,0.7,0.8,0.5,1.3c-0.5,1-1.1,2.5-1.9,4.1c-0.8,1.8-1.7,3.7-2.4,5.1C32.2,17.5,31.9,17.7,31.5,17.7
+		z"/>
+</g>
+<g>
+	<path class="st0" d="M25.6,21.6h-4.3c-0.6,0-1-0.4-1-1s0.4-1,1-1h4.3c0.6,0,1,0.4,1,1S26.2,21.6,25.6,21.6z"/>
+</g>
+<g>
+	<path class="st0" d="M17.7,21.6H9.2c-0.4,0-0.7-0.2-0.9-0.5l-6.6-13C1.4,7.6,1.6,7,2.1,6.8c0.5-0.3,1.1-0.1,1.3,0.4l6.3,12.4h7.9
+		c0.6,0,1,0.4,1,1S18.3,21.6,17.7,21.6z"/>
+</g>
+<g>
+	<path class="st0" d="M20.6,25.1h-2.9c-0.6,0-1-0.4-1-1v-4.9c0-0.6,0.4-1,1-1h2.9c0.6,0,1,0.4,1,1v4.9
+		C21.6,24.7,21.1,25.1,20.6,25.1z M18.7,23.1h0.9v-2.9h-0.9V23.1z"/>
+</g>
+<g>
+	<path class="st0" d="M25.6,7.5c-0.6,0-1-0.4-1-1V2.6H13.7v3.2c0,0.6-0.4,1-1,1s-1-0.4-1-1V1.6c0-0.6,0.4-1,1-1h12.9
+		c0.6,0,1,0.4,1,1v4.9C26.6,7.1,26.2,7.5,25.6,7.5z"/>
+</g>
+<g>
+	<path class="st0" d="M35.6,42.2c-7.6,0-13.8-6.1-13.8-13.5c0-7.5,6.2-13.5,13.8-13.5s13.8,6.1,13.8,13.5
+		C49.4,36.1,43.2,42.2,35.6,42.2z M35.6,17.1c-6.5,0-11.8,5.2-11.8,11.5s5.3,11.5,11.8,11.5S47.4,35,47.4,28.7S42.1,17.1,35.6,17.1z
+		"/>
+</g>
 </svg>
