@@ -1,31 +1,90 @@
-<svg width="44" height="46" viewBox="0 0 44 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M43.2543 17.1555H22.3729V44.9055H43.2543V17.1555Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M40.2712 20.1555H25.356V25.4055H40.2712V20.1555Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M21.6271 38.9055H0.745789V1.40552H30.5763V17.1555" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M5.96613 7.40552H21.6271" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.96613 10.4055H16.4068" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9.7844 31.0643C12.3051 31.0643 14.3485 29.0093 14.3485 26.4743C14.3485 23.9393 12.3051 21.8843 9.7844 21.8843C7.26374 21.8843 5.22034 23.9393 5.22034 26.4743C5.22034 29.0093 7.26374 31.0643 9.7844 31.0643Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9.69495 23.1555V26.1555H14.1695" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M25.356 31.4055H26.8475" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M28.339 31.4055H29.8305" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M31.3221 31.4055H32.8136" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M34.3051 31.4055H35.7966" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M25.356 34.6555H26.8475" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M28.339 34.6555H29.8305" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M31.3221 34.6555H32.8136" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M34.3051 34.6555H35.7966" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M25.356 37.9055H26.8475" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M28.339 37.9055H29.8305" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M31.3221 37.9055H32.8136" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M34.3051 37.9055H35.7966" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M38.7797 31.4055H40.2712" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M38.7797 34.6555H40.2712" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M38.7797 37.9055H40.2712" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 44 46" style="enable-background:new 0 0 44 46;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#1F50A4;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0.7" width="44" height="45"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<g>
+			<path class="st1" d="M43.3,45.9H22.4c-0.6,0-1-0.4-1-1V17.2c0-0.6,0.4-1,1-1h20.9c0.6,0,1,0.4,1,1v27.8
+				C44.3,45.5,43.8,45.9,43.3,45.9z M23.4,43.9h18.9V18.2H23.4V43.9z"/>
+		</g>
+		<g>
+			<path class="st1" d="M40.3,26.4H25.4c-0.6,0-1-0.4-1-1v-5.2c0-0.6,0.4-1,1-1h14.9c0.6,0,1,0.4,1,1v5.2
+				C41.3,26,40.8,26.4,40.3,26.4z M26.4,24.4h12.9v-3.2H26.4V24.4z"/>
+		</g>
+		<g>
+			<path class="st1" d="M21.6,39.9H0.7c-0.6,0-1-0.4-1-1V1.4c0-0.6,0.4-1,1-1h29.8c0.6,0,1,0.4,1,1v15.7h-2V2.4H1.7v35.5h19.9V39.9z
+				"/>
+		</g>
+		<g>
+			<path class="st1" d="M21.6,8.4H6c-0.6,0-1-0.4-1-1s0.4-1,1-1h15.7c0.6,0,1,0.4,1,1S22.2,8.4,21.6,8.4z"/>
+		</g>
+		<g>
+			<path class="st1" d="M16.4,11.4H6c-0.6,0-1-0.4-1-1s0.4-1,1-1h10.4c0.6,0,1,0.4,1,1S17,11.4,16.4,11.4z"/>
+		</g>
+		<g>
+			<path class="st1" d="M9.8,32.1c-3.1,0-5.6-2.5-5.6-5.6c0-3.1,2.5-5.6,5.6-5.6c3.1,0,5.6,2.5,5.6,5.6
+				C15.3,29.6,12.9,32.1,9.8,32.1z M9.8,22.9c-2,0-3.6,1.6-3.6,3.6s1.6,3.6,3.6,3.6s3.6-1.6,3.6-3.6S11.7,22.9,9.8,22.9z"/>
+		</g>
+		<g>
+			<path class="st1" d="M14.2,27.2H9.7c-0.6,0-1-0.4-1-1v-3c0-0.6,0.4-1,1-1s1,0.4,1,1v2h3.5c0.6,0,1,0.4,1,1S14.7,27.2,14.2,27.2z"
+				/>
+		</g>
+		<g>
+			<rect x="25.4" y="30.4" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="28.3" y="30.4" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="31.3" y="30.4" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="34.3" y="30.4" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="25.4" y="33.7" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="28.3" y="33.7" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="31.3" y="33.7" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="34.3" y="33.7" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="25.4" y="36.9" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="28.3" y="36.9" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="31.3" y="36.9" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="34.3" y="36.9" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="38.8" y="30.4" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="38.8" y="33.7" class="st1" width="1.5" height="2"/>
+		</g>
+		<g>
+			<rect x="38.8" y="36.9" class="st1" width="1.5" height="2"/>
+		</g>
+	</g>
 </g>
-<defs>
-<clipPath id="clip0">
-<rect width="44" height="45" fill="white" transform="translate(0 0.655518)"/>
-</clipPath>
-</defs>
 </svg>

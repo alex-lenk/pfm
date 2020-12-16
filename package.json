@@ -59,7 +59,9 @@
         "webpack-stream": "latest",
         "gulp-svgmin": "latest",
         "gulp-twig": "latest",
-        "path": "latest"
+        "path": "latest",
+        "gulp-rigger": "latest",
+        "gulp-uglify-es": "latest"
     },
     "dependencies": {
         "jquery": "latest",

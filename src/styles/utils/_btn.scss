@@ -16,16 +16,21 @@
     -moz-appearance: none;
     appearance: none;
 
+    &:focus {
+        outline: none;
+    }
+
     &-default {
-        min-width: 164px;
-        height: 57px;
+        min-width: 237px;
+        height: 50px;
         padding: 0 23px;
         color: $colorLink;
         position: relative;
         background-color: #fff;
         z-index: 1;
-        border: 2px solid #929498;
-        @include font-size(18px);
+        border: 1px solid #9D9E9E;
+        font-size: 18px;
+        transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
 
         &:disabled {
             cursor: default;
@@ -36,7 +41,7 @@
 
         &:hover {
             color: #fff;
-            background-color: $colorLink;
+            box-shadow: 0 0 40px 40px $colorLink inset;
             border-color: $colorLink;
         }
     }
@@ -63,6 +68,11 @@
         &:hover {
             color: $colorLink;
             box-shadow: 0 0 40px 40px #fff inset;
+        }
+
+        &:active {
+            color: $colorLink;
+            box-shadow: 0 0 40px 40px #fff inset, 0 0 7px 0 #fff;
         }
     }
 }

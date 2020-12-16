@@ -1,9 +1,36 @@
-<svg width="48" height="36" viewBox="0 0 48 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M46.9303 1.19043H1.34357V34.3444H46.9303V1.19043Z" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M1.34357 6.16357H46.9303" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M4.659 3.677H6.3167" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.80322 3.677H27.8668" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M30.7702 22.0774L31.3396 21.4757C31.9687 20.8109 33.018 20.7819 33.6828 21.411C34.3475 22.0401 34.3765 23.0894 33.7474 23.7542L30.8995 26.7646C30.2704 27.4293 29.2211 27.4583 28.5563 26.8292" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27.4498 29.2056L26.8804 29.8074C26.2513 30.4721 25.202 30.5011 24.5373 29.872C23.8725 29.2429 23.8435 28.1936 24.4726 27.5289L27.3205 24.5185C27.9281 23.8769 28.9617 23.7899 29.6289 24.3527" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21.236 26.8848H17.9206V12.7943H29.5245V20.254" stroke="#1F50A4" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 36" style="enable-background:new 0 0 48 36;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1F50A4;}
+</style>
+<g>
+	<path class="st0" d="M46.9,35.3H1.3c-0.6,0-1-0.4-1-1V1.2c0-0.6,0.4-1,1-1h45.6c0.6,0,1,0.4,1,1v33.2
+		C47.9,34.9,47.5,35.3,46.9,35.3z M2.3,33.3h43.6V2.2H2.3V33.3z"/>
+</g>
+<g>
+	<rect x="1.3" y="5.2" class="st0" width="45.6" height="2"/>
+</g>
+<g>
+	<path class="st0" d="M6.3,4.7H4.7c-0.6,0-1-0.4-1-1s0.4-1,1-1h1.7c0.6,0,1,0.4,1,1S6.9,4.7,6.3,4.7z"/>
+</g>
+<g>
+	<path class="st0" d="M27.9,4.7H8.8c-0.6,0-1-0.4-1-1s0.4-1,1-1h19.1c0.6,0,1,0.4,1,1S28.4,4.7,27.9,4.7z"/>
+</g>
+<g>
+	<path class="st0" d="M29.7,28.3c-0.7,0-1.3-0.3-1.8-0.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0c0.1,0.1,0.3,0.2,0.5,0.2
+		c0.2,0,0.3-0.1,0.5-0.2l2.8-3c0.1-0.1,0.2-0.3,0.2-0.5c0-0.2-0.1-0.3-0.2-0.5S32.7,22,32.5,22c-0.2,0-0.3,0.1-0.5,0.2l-0.6,0.6
+		c-0.4,0.4-1,0.4-1.4,0c-0.4-0.4-0.4-1,0-1.4l0.6-0.6c0.5-0.5,1.1-0.8,1.9-0.8c0.7,0,1.4,0.2,1.9,0.7c0.5,0.5,0.8,1.1,0.8,1.9
+		s-0.2,1.4-0.7,1.9l-2.8,3C31.1,28,30.5,28.3,29.7,28.3C29.7,28.3,29.7,28.3,29.7,28.3z"/>
+</g>
+<g>
+	<path class="st0" d="M25.7,31.3c-0.7,0-1.3-0.2-1.8-0.7c-0.5-0.5-0.8-1.1-0.8-1.9s0.2-1.4,0.7-1.9l2.8-3c1-1,2.6-1.1,3.7-0.2
+		c0.4,0.4,0.5,1,0.1,1.4c-0.4,0.4-1,0.5-1.4,0.1c-0.3-0.2-0.7-0.2-0.9,0.1l-2.8,3c-0.1,0.1-0.2,0.3-0.2,0.5s0.1,0.3,0.2,0.5
+		c0.3,0.3,0.7,0.2,0.9,0l0.6-0.6c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4l-0.6,0.6C27.1,31,26.4,31.3,25.7,31.3z"/>
+</g>
+<g>
+	<path class="st0" d="M21.2,27.9h-3.3c-0.6,0-1-0.4-1-1V12.8c0-0.6,0.4-1,1-1h11.6c0.6,0,1,0.4,1,1v7.5c0,0.6-0.4,1-1,1s-1-0.4-1-1
+		v-6.5h-9.6v12.1h2.3c0.6,0,1,0.4,1,1S21.8,27.9,21.2,27.9z"/>
+</g>
 </svg>

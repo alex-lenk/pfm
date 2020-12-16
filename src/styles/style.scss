@@ -4,101 +4,10 @@
 @import 'utils/btn';
 @import "common/global";
 @import "common/header";
+@import "common/footer";
 @import "blocks/menu";
 @import "blocks/list-graphic";
-
-.section-area {
-    padding-top: 53px;
-    padding-bottom: 53px;
-}
-
-.section-title {
-    margin-bottom: 20px;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 63px;
-    text-transform: uppercase;
-}
-
-.section-text {
-    margin-bottom: 51px;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.section-inner {
-    display: flex;
-}
-
-.section-content {
-    margin-right: 4%;
-    max-width: 36%;
-    flex-basis: 36%;
-
-    .list-graphic__item {
-        padding-left: 69px;
-        line-height: 24px;
-
-        &:not(:last-child) {
-            margin-bottom: 25px;
-        }
-    }
-}
-
-.section-content__title {
-    margin-bottom: 49px;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    text-transform: uppercase;
-}
-
-.section-service {
-    max-width: 60%;
-    flex-basis: 60%;
-    padding-top: 13px;
-}
-
-.section-service__list {
-    margin-bottom: 24px;
-    padding: 39px 12% 50px 33px;
-    background-color: #B7B7B7;
-    color: #fff;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.section-list__item {
-    display: flex;
-
-    &:not(:last-child) {
-        margin-bottom: 23px;
-    }
-}
-
-.section-list__icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 25px;
-    fill: #fff;
-}
-
-.section-service__order {
-    padding: 40px;
-    height: 170px;
-    background-color: #1F50A4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-service__order-label {
-    margin-right: 30px;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.section-service__order-btn {
-    min-width: 237px;
-}
+@import "blocks/partners-carousel";
+@import "blocks/section";
+@import "blocks/case";
+@import "blocks/teaching";
