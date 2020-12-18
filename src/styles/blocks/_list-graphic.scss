@@ -1,12 +1,7 @@
 .list-graphic__item {
     padding-left: 57px;
     font-size: 18px;
-    line-height: 28px;
     position: relative;
-
-    &:not(:last-child) {
-        margin-bottom: 28px;
-    }
 }
 
 .list-graphic__icon {
@@ -14,7 +9,6 @@
     width: var(--listGraphicIconWidth, 44px);
     height: var(--listGraphicIconHeight, 44px);
     position: absolute;
-    top: -6px;
     left: 0;
 }
 
@@ -63,4 +57,30 @@
     --listGraphicIconWidth: 47px;
     --listGraphicIconHeight: 47px;
     top: -9px;
+}
+
+@media (min-width: 576px) {
+    .list-graphic__item {
+        line-height: 28px;
+
+        &:not(:last-child) {
+            margin-bottom: 28px;
+        }
+    }
+    .list-graphic__icon {
+        top: -6px;
+    }
+}
+
+@media (max-width: 575px) {
+    .list-graphic__item {
+        line-height: 19px;
+
+        &:not(:last-child) {
+            margin-bottom: 19px;
+        }
+    }
+    .list-graphic__icon {
+        top: -1px;
+    }
 }

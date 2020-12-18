@@ -14,3 +14,14 @@
 @import "blocks/case";
 @import "blocks/teaching";
 @import "blocks/contacts";
+
+@media (max-width: 575px) {
+    .section-title__decor {}
+}
+
+@media (min-width: 576px) {
+    .show-xs {
+        display: none
+    }
+}
+

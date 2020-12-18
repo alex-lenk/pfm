@@ -17,4 +17,16 @@ $(document).ready(function () {
             }
         }]
     });
-})
+
+    $('.menu-toggle').click(function () {
+        $('body').addClass('menu-open');
+    });
+
+    $('.menu-close').click(function () {
+        $('body').removeClass('menu-open');
+    });
+
+    if ($(window).width() < 575) {
+        $('.header-phone').appendTo('.menu-wrap');
+    }
+});

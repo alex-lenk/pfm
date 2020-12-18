@@ -1,10 +1,9 @@
 {% extends "components/layout.twig" %}
 {% set title = "ПФМ – полнофункциональная Фирма" %}
 {% block header %}{% include 'components/header.twig' %}{% endblock %}
-
 {% block content %}
 <section class="section-area container">
-    <h2 class="section-title">Бюджет в Excel</h2>
+    <h2 class="section-title section-title__decor">Бюджет в Excel</h2>
 
     <p class="section-text">
         Одна из&nbsp;основных задач любого бизнеса&nbsp;&mdash; наладить систему измерения результатов деятельности.
@@ -108,8 +107,7 @@
     </div>
 </section>
 
-
-<section class="section-report">
+<section class="section-report d-none">
     <div class="section-area container">
         <div class="ratio ratio-16x9">
             <iframe src="https://app.powerbi.com/view?r=eyJrIjoiN2U1ODAyYTYtMDA3My00MTBiLTgyMWEtMWU1MmIwOGMwMWJiIiwidCI6IjdiMzc5OTYwLTBjMTUtNDk0Yi05NjhiLTQzZWMwMDdiOTQwMCIsImMiOjl9" allowfullscreen></iframe>
@@ -118,7 +116,7 @@
 </section>
 
 
-<section class="section-area container">
+<section class="section-area container d-none">
     <h2 class="section-title">Финансовая модель</h2>
 
     <p class="section-text">
@@ -198,7 +196,7 @@
 </section>
 
 
-<section class="section-report">
+<section class="section-report d-none">
     <div class="section-area container">
         <div class="row">
             <div class="col-lg-6">
@@ -216,7 +214,7 @@
 </section>
 
 
-<section class="section-area container">
+<section class="section-area container d-none">
     <h2 class="section-title">Отчеты в Power BI</h2>
 
     <p class="section-text">
@@ -300,7 +298,7 @@
 </section>
 
 
-<section class="section-report">
+<section class="section-report d-none">
     <div class="section-area container">
         <div class="row">
             <div class="col-lg-6">
@@ -318,7 +316,7 @@
 </section>
 
 
-<section class="section-partners">
+<section class="section-partners d-none">
     <div class="section-area container">
         <h2 class="section-partners__title section-title">Наши клиенты</h2>
 
@@ -340,7 +338,7 @@
 </section>
 
 
-<section class="section-area container">
+<section class="section-area container d-none">
     <h2 class="section-title section-title__large">Кейсы</h2>
 
     <ul class="case">
@@ -380,7 +378,7 @@
 </section>
 
 
-<section class="section-area container">
+<section class="section-area container d-none">
     <h2 class="section-title__large section-title">база знаний</h2>
 
     <ul class="teaching">
@@ -502,7 +500,7 @@
 </section>
 
 
-<section class="contacts">
+<section class="contacts d-none">
     <div class="section-area container">
         <h2 class="section-title section-title__large">Контакты</h2>
 
@@ -531,4 +529,4 @@
 </section>
 {% endblock %}
 
-{% block footer %}{% include 'components/footer.twig' %}{% endblock %}
+{% block footer %}{#{% include 'components/footer.twig' %}#}{% endblock %}
