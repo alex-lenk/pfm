@@ -96,7 +96,7 @@
 
 @media (max-width: 575px) {
     .header {
-        padding-top: 15px;
+        padding-top: 5px;
         padding-bottom: 13px;
 
         &::before {
@@ -107,7 +107,9 @@
         }
     }
     .header-top {
-        margin-bottom: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 14px;
     }
     .header-home__title {
         margin-bottom: 26px;
