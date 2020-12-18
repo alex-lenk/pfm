@@ -2,6 +2,8 @@
 @import "mixins/mixin";
 @import 'utils/fonts';
 @import 'utils/btn';
+@import 'utils/form';
+@import 'utils/custom-control';
 @import "common/global";
 @import "common/header";
 @import "common/footer";
@@ -11,3 +13,4 @@
 @import "blocks/section";
 @import "blocks/case";
 @import "blocks/teaching";
+@import "blocks/contacts";

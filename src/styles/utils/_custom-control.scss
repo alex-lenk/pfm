@@ -1,0 +1,103 @@
+.custom-control {
+    margin-bottom: 0;
+    position: relative;
+    min-height: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+    transition: color .2s ease-in-out;
+
+    &.disabled {
+        opacity: .5;
+        pointer-events: none;
+    }
+}
+
+.custom-control-input {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 35px;
+    height: 1.25rem;
+    opacity: 0;
+
+    &:checked ~ {
+        .custom-control-label::before {
+            opacity: 1;
+        }
+    }
+
+    &:disabled ~ .custom-control-label::after {
+        opacity: 1;
+        background: linear-gradient(93.96deg, #DDDDDD 0%, #CACACA 100%);
+    }
+}
+
+.custom-control-label {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+
+    &::before,
+    &::after {
+        color: #fff;
+        font-weight: 400;
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+
+    &::before {
+        opacity: 0;
+        transition: opacity .2s ease-in-out;
+    }
+
+    &::after {
+        left: 0;
+        pointer-events: none;
+        content: '';
+    }
+}
+
+.custom-radio {
+    margin-left: 30px;
+
+    &::before {
+        width: 10px;
+        height: 10px;
+        top: 8px;
+        left: 5px;
+        border-radius: 50%;
+        background: #fff;
+    }
+
+    &::after {
+        width: 20px;
+        height: 20px;
+        top: 3px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        background-color: #fff;
+        transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+    }
+}
+
+.custom-checkbox {
+    margin-left: 38px;
+
+    &::after {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        top: 3px;
+    }
+
+    &::before {
+        transform: scaleX(-.8) rotate(-35deg);
+        top: 4px;
+        left: 7px;
+        font-size: 13px;
+        font-family: Arial, Verdana, sans-serif;
+        content: 'L';
+    }
+}

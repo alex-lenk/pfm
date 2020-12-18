@@ -1,16 +1,14 @@
 .ui-placeholder {
     @include hidePlaceholder {
         opacity: 1;
-        color: rgba($mainColor, .5);
-        transition: opacity 0.3s ease;
-        font-family: 'Sylfaen', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif, 'Segoe UI Symbol';
-        @include font-size(20px);
+        color: rgba(#fff, .7);
+        transition: opacity .2s ease-in-out;
     }
 
     &:focus {
         @include hidePlaceholder {
             opacity: 0;
-            transition: opacity 0.3s ease;
+            transition: opacity .2s ease-in-out;
         }
     }
 }
@@ -26,18 +24,20 @@ textarea.ui-field {
 }
 
 .ui-field {
-    height: 57px;
+    height: 35px;
     width: 100%;
     padding: 0;
-    color: $mainColor;
+    color: #fff;
     display: block;
-    outline: none;
-    border-width: 0;
+    outline: 0;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-bottom-color: #fff;
     border-radius: 0;
-    border-bottom: 2px solid rgba($mainColor, .5);
-    transition: all .3s ease;
+    transition: all .2s ease-in-out;
+    background-color: transparent;
+    outline: none;
     font-family: 'Sylfaen', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif, 'Segoe UI Symbol';
-    @include font-size(20px);
 }
 
 .field-filled .ui-field {
@@ -57,7 +57,8 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s; /* выставляется желаемая задержка */
+    transition: background-color 5000s ease-in-out 0s;
+    /* выставляется желаемая задержка */
 }
 
 input:-webkit-autofill {

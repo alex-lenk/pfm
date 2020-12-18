@@ -1,10 +1,9 @@
-'use strict';
 //= vendor/jquery.min.js
 //= vendor/slick.min.js
 
-$(document).ready(function () {
-    console.log(`document ready`);
+'use strict';
 
+$(document).ready(function () {
     $('.partners-carousel').slick({
         slidesToShow: 3,
         slidesToScroll: 1,

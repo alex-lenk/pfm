@@ -341,7 +341,7 @@
 
 
 <section class="section-area container">
-    <h2 class="section-case__title section-title">Кейсы</h2>
+    <h2 class="section-title section-title__large">Кейсы</h2>
 
     <ul class="case">
         <li class="case-item">
@@ -381,7 +381,7 @@
 
 
 <section class="section-area container">
-    <h2 class="section-teaching__title section-title">база знаний</h2>
+    <h2 class="section-title__large section-title">база знаний</h2>
 
     <ul class="teaching">
         <li class="teaching-item">
@@ -496,9 +496,37 @@
         </li>
     </ul>
 
-
     <div class="section-area__all">
         <a href="#" class="btn btn-default">Смотреть все </a>
+    </div>
+</section>
+
+
+<section class="contacts">
+    <div class="section-area container">
+        <h2 class="section-title section-title__large">Контакты</h2>
+
+        <form action="#" class="contacts-form">
+            <div class="contacts-form__col ui-group">
+                <input type="text" class="ui-placeholder ui-field" placeholder="Имя">
+            </div>
+            <div class="contacts-form__col ui-group">
+                <input type="text" class="ui-placeholder ui-field" placeholder="Телефон">
+            </div>
+
+            <div class="contacts-form__message ui-group">
+                <textarea name="message" class="ui-placeholder ui-field" rows="2" placeholder="Сообщение"></textarea>
+            </div>
+
+            <div class="contacts-footer">
+                <label for="agree" class="contacts-footer__agree custom-control bx-filter-param-label ">
+                    <input type="checkbox" class="custom-control-input" id="agree">
+                    <span class="custom-control-label custom-checkbox">Я даю свое согласие на обработку персональных данных</span>
+                </label>
+
+                <button class="btn btn-light">Отправить</button>
+            </div>
+        </form>
     </div>
 </section>
 {% endblock %}

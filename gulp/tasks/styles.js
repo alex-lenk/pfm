@@ -20,19 +20,9 @@ module.exports = function styles() {
         }
       ]
     }))
-    .pipe(sourcemaps.init())
     .pipe(sass())
-    .pipe(autoprefixer({
-      cascade: false
-    }))
+    .pipe(autoprefixer())
     .pipe(shorthand())
-    .pipe(cleanCSS({
-      debug: true,
-      compatibility: '*'
-    }, details => {
-      console.log(`${details.name}: Original size:${details.stats.originalSize} - Minified size: ${details.stats.minifiedSize}`)
-    }))
-    .pipe(sourcemaps.write())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('build/css'))
 }

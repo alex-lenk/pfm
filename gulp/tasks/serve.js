@@ -17,6 +17,7 @@ function readyReload(cb) {
 module.exports = function serve(cb) {
     server.init({
         server: 'build',
+        port: 3009,
         notify: false,
         open: true,
         cors: true

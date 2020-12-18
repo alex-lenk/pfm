@@ -2,6 +2,22 @@
     padding-top: 23px;
     height: 653px;
     background: linear-gradient(90deg, #E1E1E1 21.64%, rgba(225, 225, 225, 0) 100%);
+    position: relative;
+
+    &::before {
+        width: 904px;
+        height: 745px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url(../img/header-decor.svg) no-repeat center;
+        content: '';
+    }
+}
+
+.header-info {
+    position: relative;
+    z-index: 2;
 }
 
 .header-top {
@@ -14,7 +30,6 @@
     width: 116px;
     margin-right: auto;
 }
-
 
 .header-phone {
     font-size: 18px;
