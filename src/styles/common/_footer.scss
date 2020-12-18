@@ -1,14 +1,10 @@
 .footer {
-    padding-top: 32px;
-    padding-bottom: 32px;
     display: flex;
     align-items: center;
 }
 
 .footer-copy {
     font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer-phone {
@@ -18,5 +14,36 @@
 
     &:hover {
         text-decoration: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .footer {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .footer-copy {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        padding-top: 27px;
+        padding-bottom: 27px;
+        flex-wrap: wrap;
+    }
+    .footer-logo {
+        margin-right: auto;
+    }
+    .footer-copy {
+        padding-top: 11px;
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .footer-phone {
+        font-size: 21px;
     }
 }

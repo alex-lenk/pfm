@@ -1,23 +1,9 @@
 .case {
     padding-left: 0;
-    margin-bottom: 0;
-    margin-left: -25px;
-    margin-right: -25px;
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.case-item {
-    margin-bottom: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
-    max-width: 50%;
-    flex-basis: 50%;
 }
 
 .case-inner {
-    padding: 35px 44px;
     background-color: #DFDFDF;
     border-radius: 8px;
     position: relative;
@@ -48,7 +34,6 @@
 }
 
 .case-title {
-    margin-bottom: 10px;
     font-size: 24px;
     text-transform: uppercase;
     color: $colorLink;
@@ -94,5 +79,43 @@
         height: 14px;
         right: 15px;
         bottom: 8px;
+    }
+}
+
+@media (min-width: 576px) {
+    .case {
+        margin-left: -25px;
+        margin-right: -25px;
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .case-item {
+        margin-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    .case-inner {
+        padding: 35px 44px;
+    }
+    .case-title {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .case {
+        margin-bottom: 32px;
+    }
+    .case-inner {
+        padding: 23px 25px;
+    }
+    .case-item:not(:last-child) {
+        margin-bottom: 21px;
+    }
+    .case-title {
+        margin-bottom: 1px;
     }
 }

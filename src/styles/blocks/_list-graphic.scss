@@ -8,14 +8,15 @@
     fill: #1F50A4;
     width: var(--listGraphicIconWidth, 44px);
     height: var(--listGraphicIconHeight, 44px);
+    left: var(--listGraphicIconLeft, 0);
+    top: var(--listGraphicIconTop, -6px);
     position: absolute;
-    left: 0;
 }
 
 .list-graphic__icon-01 {
     --listGraphicIconWidth: 44px;
     --listGraphicIconHeight: 44px;
-    left: 2px;
+    --listGraphicIconLeft: 2px;
 }
 
 .list-graphic__icon-02 {
@@ -36,27 +37,22 @@
 .list-graphic__icon-06 {
     --listGraphicIconWidth: 42px;
     --listGraphicIconHeight: 42px;
-    top: -7px;
 }
 
 .list-graphic__icon-07 {
     --listGraphicIconWidth: 50px;
     --listGraphicIconHeight: 50px;
-    top: -3px;
-}
-
-.list-graphic__icon-08 {
-    top: 2px;
+    --listGraphicIconTop: -3px;
 }
 
 .list-graphic__icon-09 {
-    top: -1px;
+    --listGraphicIconTop: -1px;
 }
 
 .list-graphic__icon-10 {
     --listGraphicIconWidth: 47px;
     --listGraphicIconHeight: 47px;
-    top: -9px;
+    --listGraphicIconTop: -9px;
 }
 
 @media (min-width: 576px) {
@@ -67,8 +63,11 @@
             margin-bottom: 28px;
         }
     }
-    .list-graphic__icon {
-        top: -6px;
+    .list-graphic__icon-06 {
+        --listGraphicIconTop: -7px;
+    }
+    .list-graphic__icon-08 {
+        --listGraphicIconTop: 2px;
     }
 }
 
@@ -80,7 +79,17 @@
             margin-bottom: 19px;
         }
     }
-    .list-graphic__icon {
-        top: -1px;
+    .list-graphic__icon-04 {
+        --listGraphicIconTop: -7px;
+    }
+    .list-graphic__icon-05 {
+        --listGraphicIconLeft: 3px;
+        --listGraphicIconTop: -1px;
+    }
+    .list-graphic__icon-06 {
+        --listGraphicIconTop: -12px;
+    }
+    .list-graphic__icon-08 {
+        --listGraphicIconTop: -3px;
     }
 }
