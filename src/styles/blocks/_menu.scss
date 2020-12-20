@@ -72,7 +72,7 @@
     left: 0;
     z-index: 24;
     position: fixed;
-    background: linear-gradient(90deg, #E1E1E1 30%, rgba(225, 225, 225, 0) 100%);
+    background: rgba(#E1E1E1, .9);
 }
 
 @media (min-width: 576px) {
@@ -80,9 +80,6 @@
     .menu-title,
     .menu-close {
         display: none;
-    }
-    .menu-wrap {
-        margin-bottom: 107px;
     }
     .menu {
         display: flex;

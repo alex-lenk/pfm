@@ -1,6 +1,7 @@
 .header {
     background: linear-gradient(90deg, #E1E1E1 21.64%, rgba(225, 225, 225, 0) 100%);
     position: relative;
+    overflow: hidden;
 
     &::before {
         position: absolute;
@@ -69,7 +70,7 @@
 @media (min-width: 576px) {
     .header {
         padding-top: 23px;
-        height: 653px;
+        padding-bottom: 23px;
 
         &::before {
             width: 904px;
@@ -84,6 +85,8 @@
         margin-right: 13px;
     }
     .header-home {
+        padding-bottom: 90px;
+        margin-top: 107px;
         display: flex;
         align-items: flex-end;
     }

@@ -1,5 +1,6 @@
 //= vendor/jquery.min.js
 //= vendor/slick.min.js
+//= snipped/mask.js
 
 'use strict';
 
