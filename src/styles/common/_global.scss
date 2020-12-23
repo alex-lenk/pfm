@@ -87,6 +87,15 @@ $utilities: map-get-multiple(
 
 @import "../vendors/bootstrap-5.0.0-beta1/utilities/api";
 
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @media (min-width: 768px) {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
 
 .container {
     width: 100%;
