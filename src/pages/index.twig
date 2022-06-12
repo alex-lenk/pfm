@@ -1,7 +1,42 @@
 {% extends "components/layout.twig" %}
-{% set title = "ПФМ – полнофункциональная Фирма" %}
+{% set title = "PFM &#8212; полнофункцианальная фирма &#8212; Настраиваем управленческий учет. Создаем финансовые модели. Внедряем интерактивные отчеты" %}
 {% block header %}{% include 'components/header.twig' %}{% endblock %}
 {% block content %}
+  <main class="main__header">
+    <div class="main__header-inner container">
+      <h1 class="main__header-title">
+        Профессиональный консалтинг
+        в&nbsp;сфере&nbsp;гостиниц
+      </h1>
+
+      <ul class="main__header-list list-unstyled">
+        <li class="main__header-item">
+          Рассчитаем доходность<br>
+          будущей гостиницы
+        </li>
+        <li class="main__header-item">
+          Внедрим мировые<br>
+          стандарты отчётности
+        </li>
+        <li class="main__header-item">
+          Увеличим стоимость<br>
+          вашего бизнеса
+        </li>
+        <li class="main__header-item">
+          Продадим вашу гостиницу<br>
+          по лучшей цене
+        </li>
+      </ul>
+
+      <a class="main__header-button btn__primary btn" href="#">
+        Получить консультацию
+        <svg class="btn__primary-icon">
+          <use xlink:href="/assets/img/icons.svg#arrow"></use>
+        </svg>
+      </a>
+    </div>
+  </main>
+  {#
 <section class="section-area container" id="budget">
     <h2 class="section-title section-title__decor">Бюджет в Excel</h2>
 
@@ -537,6 +572,8 @@
         </form>
     </div>
 </section>
+  #}
 {% endblock %}
 
-{% block footer %}{% include 'components/footer.twig' %}{% endblock %}
+{#
+{% block footer %}{% include 'components/footer.twig' %}{% endblock %}#}

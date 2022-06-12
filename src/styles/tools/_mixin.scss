@@ -1,3 +1,10 @@
+@use "sass:math";
+
+@function get-vw($target, $maxBreakpoint) {
+  $vw-context: $maxBreakpoint * 0.01 * 1px;
+  @return math.div($target, $vw-context) * 1vw;
+}
+
 @function calculateRem($size) {
   $remSize: $size / 16px;
   @return $remSize * 1rem;

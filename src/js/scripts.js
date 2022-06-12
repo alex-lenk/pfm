@@ -1,6 +1,6 @@
 //= vendor/jquery.min.js
 //= vendor/slick.min.js
-//= snipped/mask.js
+// = snipped/mask.js
 
 'use strict';
 
@@ -19,12 +19,8 @@ $(document).ready(function () {
         }]
     });
 
-    $('.menu-toggle').click(function () {
-        $('body').addClass('menu-open');
-    });
-
-    $('.menu-close').click(function () {
-        $('body').removeClass('menu-open');
+    $('.js-header__toggle').click(function () {
+        $('body').toggleClass('header__nav-open');
     });
 
     /* BEGIN: Плавная прокрутка к ID */
