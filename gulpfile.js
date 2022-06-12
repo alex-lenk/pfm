@@ -6,8 +6,11 @@ const {series, watch, src, dest, lastRun} = gulp
 import twig from 'gulp-twig'
 import autoprefixer from 'gulp-autoprefixer'
 import cleanCSS from 'gulp-clean-css'
-import webpack from 'webpack'
-import webpackStream from 'webpack-stream'
+import gulpUglify from 'gulp-uglify-es'
+
+const uglify = gulpUglify.default
+
+import rigger from 'gulp-rigger'
 import browserSync from 'browser-sync'
 import svgMin from 'gulp-svgmin'
 import svgStore from 'gulp-svgstore'
@@ -86,34 +89,8 @@ const SCSS = () => {
 
 const js = () => {
   return src(pathFiles.js.src, {since: lastRun(HTML)})
-    .pipe(webpackStream({
-      mode: "production",
-      entry: {
-        "scripts": "./src/js/scripts.js",
-        "scripts.min": "./src/js/scripts.js"
-      },
-      performance: {
-        hints: false,
-        maxEntrypointSize: 512000,
-        maxAssetSize: 512000
-      },
-      output: {
-        filename: "[name].js"
-      },
-      module: {
-        rules: [{
-          test: /\.js$/,
-          exclude: /^_(\w+)(\.js)$|node_modules/,
-          use: {
-            loader: 'babel-loader'
-          }
-        }]
-      },
-      optimization: {
-        minimizer: [],
-      },
-      plugins: []
-    }), webpack)
+    .pipe(rigger())
+    .pipe(uglify())
     .pipe(dest(pathFiles.js.build))
     .pipe(browserSync.stream())
 }
@@ -181,7 +158,7 @@ const myServer = () => {
 }
 
 const svgSprite = () => {
-  return src('./src/img/sprite/*.svg')
+  return src('./src/img/icons/*.svg')
     .pipe(svgMin(function getOptions(file) {
       let prefix = basePath.basename(
         file.relative,
