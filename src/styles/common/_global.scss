@@ -1,13 +1,14 @@
+/*
 $font-family-sans-serif: 'Sylfaen', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 
-/*!
+!*!
  * Bootstrap Reboot v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
- */
+ *!
 @import "../vendors/bootstrap-5.0.0-beta1/functions";
 @import "../vendors/bootstrap-5.0.0-beta1/variables";
 // Prevent the usage of custom properties since we don't add them to `:root` in reboot
@@ -21,12 +22,12 @@ $font-family-code: $font-family-monospace; // stylelint-disable-line scss/dollar
 @import "../vendors/bootstrap-5.0.0-beta1/type";
 
 
-/*!
+!*!
  * Bootstrap Grid v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+ *!
 
 $include-column-box-sizing: true !default;
 
@@ -108,3 +109,4 @@ $utilities: map-get-multiple(
 
 @import "../../local_modules/slick-carousel/slick/slick";
 @import "../../local_modules/slick-carousel/slick/slick-theme";
+*/
