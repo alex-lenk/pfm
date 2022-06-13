@@ -4,7 +4,9 @@
 
 .main__header {
   color: #fff;
-  background: url(../img/bg/main-header.jpg) no-repeat center;
+  background-image: url(../img/bg/main-header-m.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -40,6 +42,7 @@
   }
 
   .main__header {
+    background-image: url(../img/bg/main-header.jpg);
     height: 576px;
   }
 }
@@ -99,6 +102,6 @@
   }
 
   .main__header {
-    height: 390px
+    height: 389px
   }
 }

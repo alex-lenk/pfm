@@ -1,0 +1,40 @@
+.main__tell {
+  margin-bottom: 75px;
+  height: 473px;
+  text-align: center;
+  background-image: url(../img/bg/tell-us-m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__tell-content {
+  max-width: 769px;
+  margin: 0 auto 36px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main__tell-button {
+  min-width: 260px;
+  align-self: center;
+}
+
+@media (min-width: 576px) {
+  .main__tell {
+    background-image: url(../img/bg/tell-us.jpg);
+    background-position: center;
+  }
+  .main__tell-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .main__tell {
+    padding-top: 36px;
+    background-position: top center;
+  }
+}
