@@ -68,14 +68,9 @@
 }
 
 @media (max-width: 576px) {
-  .main__services {
-    padding-bottom: 115px;
-    margin-left: -20px;
-    margin-right: -20px;
-  }
   .main__services-item {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .main__services-wrap {
     min-height: 255px;

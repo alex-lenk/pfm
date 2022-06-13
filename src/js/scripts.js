@@ -18,14 +18,17 @@ $(document).ready(function () {
   });
   /* END */
 
+  const obj = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="carousel__arrow carousel__prev slick-prev"></button>',
+    nextArrow: '<button type="button" class="carousel__arrow carousel__next slick-next"></button>'
+  }
 
   if ($(window).width() < 575) {
-    $('#js-main__services').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      prevArrow: '<button type="button" class="carousel__arrow carousel__prev slick-prev"></button>',
-      nextArrow: '<button type="button" class="carousel__arrow carousel__next slick-next"></button>'
-    });
+    $('#js-main__services').slick(obj);
+    $('#js-main__team-part').slick(obj);
+    $('#js-main__persons').slick(obj);
   }
 
 

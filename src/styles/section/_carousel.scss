@@ -43,3 +43,11 @@
     transform: rotate(45deg);
   }
 }
+
+@media (max-width: 576px) {
+  .slick-slider {
+    padding-bottom: 115px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}

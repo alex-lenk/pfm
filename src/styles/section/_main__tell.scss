@@ -1,5 +1,4 @@
 .main__tell {
-  margin-bottom: 75px;
   height: 473px;
   text-align: center;
   background-image: url(../img/bg/tell-us-m.jpg);
@@ -21,6 +20,7 @@
 
 @media (min-width: 576px) {
   .main__tell {
+    margin-bottom: 75px;
     background-image: url(../img/bg/tell-us.jpg);
     background-position: center;
   }
@@ -34,6 +34,7 @@
 
 @media (max-width: 576px) {
   .main__tell {
+    margin-bottom: 40px;
     padding-top: 36px;
     background-position: top center;
   }
