@@ -23,11 +23,15 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-{% block header %}{% endblock %}
+{% block header %}
+  {% include 'header.twig' %}
+{% endblock %}
 
 {% block content %}{% endblock %}
 
-{% block footer %}{% endblock %}
+{% block footer %}
+  {% include 'footer.twig' %}
+{% endblock %}
 
 <script src="/assets/js/scripts.js"></script>
 </body>
