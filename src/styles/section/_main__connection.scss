@@ -1,0 +1,83 @@
+
+.main__connection {
+  padding-bottom: 40px;
+  background-color: #2462BC;
+}
+
+.main__connection-inner {
+  color: #fff;
+}
+
+.main__connection-text {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.main__connection-btn {
+  min-width: 263px;
+  background-color: #73B5FF;
+}
+
+@media (min-width: 768px) {
+  .main__connection {
+    padding-top: 80px;
+  }
+  .main__connection-inner {
+    display: flex;
+  }
+  .main__connection-title {
+    text-align: left;
+  }
+  .main__connection-text {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .main__connection-form {
+    max-width: 54.3%;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+  }
+
+  .main__connection-inputs {
+    width: 43.5%;
+    margin-right: 5%;
+  }
+
+  .main__connection-textarea {
+    width: 51%;
+  }
+
+  .main__connection-agree {
+    max-width: 270px;
+    line-height: 20px;
+  }
+  .main__connection-btn {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main__connection-agree {
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__connection {
+    padding-top: 32px;
+  }
+  .main__connection-text {
+    margin-bottom: 26px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  .main__connection-form {
+    padding-left: 40px;
+  }
+}

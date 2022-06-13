@@ -369,6 +369,46 @@
       </div>
     </div>
   </section>
+
+  <section class="main__connection">
+    <div class="main__connection-inner container">
+      <div>
+        <h2 class="main__connection-title main__title">Остались вопросы?</h2>
+        <div class="main__connection-text">
+          Наши специалисты ответят на&nbsp;все&nbsp;интересующие Вас&nbsp;вопросы.
+        </div>
+      </div>
+
+      <form class="main__connection-form" action="/">
+        <div class="main__connection-inputs">
+          <div class="form__group">
+            <label class="form__label" for="form__name">Ваше имя</label>
+            <input type="text" class="form__filed" id="form__name" placeholder="Представьтесь пожалуйста">
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="form__email">Ваш e-mail</label>
+            <input type="email" class="form__filed" id="form__email" placeholder="Post@post.ru">
+          </div>
+        </div>
+
+        <div class="main__connection-textarea form__group">
+          <label class="form__label" for="form__message">Сообщение</label>
+          <textarea class="form__textarea" id="form__message" placeholder="Напишите ваш вопрос"></textarea>
+        </div>
+
+        <div class="main__connection-agree">
+          Нажимая на&nbsp;кнопку вы&nbsp;даете согласие на&nbsp;обработку персональных данных
+        </div>
+
+        <button class="main__connection-btn btn__primary btn">
+          Отправить
+          <svg class="btn__primary-icon">
+            <use xlink:href="/assets/img/icons.svg#arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </section>
 {% endblock %}
 
 {#

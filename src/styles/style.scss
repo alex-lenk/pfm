@@ -12,6 +12,7 @@
 
 @import 'general/btn';
 @import "general/global";
+@import 'general/form';
 @import "section/header";
 @import "section/carousel";
 @import "section/menu";
@@ -21,11 +22,15 @@
 @import "section/main__tell";
 @import "section/main__team";
 @import "section/main__contacts";
+@import "section/main__connection";
+
+
+
+
 
 
 
 /*
-@import 'utils/form';
 @import 'utils/custom-control';
 @import "common/footer";
 @import "blocks/menu";
