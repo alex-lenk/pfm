@@ -1,3 +1,7 @@
+.main__title {
+  text-align: center;
+}
+
 .main__header {
   color: #fff;
   background: url(../img/bg/main-header.jpg) no-repeat center;
@@ -12,7 +16,6 @@
 
 .main__header-title {
   margin-bottom: 0;
-  font-weight: 900;
   text-align: center;
 }
 
@@ -30,6 +33,12 @@
 }
 
 @media (min-width: 576px) {
+  .main__title {
+    margin-bottom: 37px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
   .main__header {
     height: 576px;
   }
@@ -82,6 +91,13 @@
 }
 
 @media (max-width: 576px) {
+  .main__title {
+    margin-bottom: get-vw(24px, 375);
+
+    font-size: get-vw(34px, 375);
+    line-height: get-vw(43px, 375);
+  }
+
   .main__header {
     height: 390px
   }

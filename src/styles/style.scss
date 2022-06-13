@@ -8,16 +8,16 @@
 @import "vendors/bootstrap/mixins";
 @import "vendors/bootstrap/root";
 @import "vendors/bootstrap/reboot";
+@import "vendors/slick-original";
 
 @import 'general/btn';
 @import "general/global";
 @import "section/header";
+@import "section/carousel";
 @import "section/menu";
 @import "section/main";
 @import "section/main__content";
-
-
-
+@import "section/main__services";
 
 
 /*
@@ -26,7 +26,6 @@
 @import "common/footer";
 @import "blocks/menu";
 @import "blocks/list";
-@import "blocks/partners-carousel";
 @import "blocks/section";
 @import "blocks/case";
 @import "blocks/teaching";
