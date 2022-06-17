@@ -15,7 +15,11 @@
   line-height: 25px;
 }
 
-.base__button {
+.base__more {
+  text-align: center;
+}
+
+.base__more-button {
   min-width: 260px;
 }
 
@@ -23,6 +27,7 @@
   .base__media {
     height: 220px;
     margin-bottom: 35px;
+    border-radius: 16px;
   }
 
   .base__media-img {

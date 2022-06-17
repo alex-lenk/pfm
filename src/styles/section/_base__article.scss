@@ -1,0 +1,27 @@
+.base__article {
+  margin-bottom: 70px;
+}
+
+@media (min-width: 576px) {
+  .base__article-list {
+    margin-bottom: 52px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 45px;
+  }
+  .base__article-media {
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 576px) {
+  .base__article-list {
+    margin-bottom: 40px;
+  }
+  .base__article-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .base__article-media {
+    margin-bottom: 20px;
+  }
+}
