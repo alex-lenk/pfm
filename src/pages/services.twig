@@ -2,397 +2,45 @@
 {% set title = "Услуги" %}
 
 {% block headerPages %}
-  {#{% include 'components/header-page.twig' %}#}
-<header class="header__page">
-  <div class="container">
-    <h1 class="header__page-title">Глубокий анализ реализуемости проекта</h1>
-
-    <ol class="breadcrumbs list-unstyled">
-      <li class="breadcrumbs__item">
-        <a href="/" class="breadcrumbs__link">Главная</a>
-      </li>
-      <li class="breadcrumbs__item">
-        <a href="/services.html" class="breadcrumbs__link">Услуги</a>
-      </li>
-      <li class="breadcrumbs__item breadcrumbs__item-current">Глубокий анализ реализуемости проекта</li>
-    </ol>
-  </div>
-</header>
-
-
+  {% include 'components/header-page.twig' %}
 {% endblock %}
 
 {% block content %}
-<section class="main__content">
-  <div class="main__content-inner container">
-    <div class="main__content-item">
-      <strong>
-        PFM&nbsp;&mdash; компания, специализирующаяся исключительно на&nbsp;индустрии гостеприимства. Мы&nbsp;предлагаем
-        экспертные знания во&nbsp;всех типах гостиничных активов, включая отели, апартаменты, многофункциональные
-        комплексы, а&nbsp;также спа и&nbsp;велнес.
-      </strong>
-    </div>
-    <div class="main__content-item">
-      Команда PFM имеет опыт работы как в&nbsp;глобальных консалтинговых компаниях, входящих в&nbsp;ТОП-3 гостиничных
-      консультантов мира, так и&nbsp;в&nbsp;крупнейших в&nbsp;России гостиничных девелоперских проектах.
-    </div>
-    <div class="main__content-item">
-      Поэтому мы&nbsp;предлагаем широкий спектр услуг&nbsp;&mdash; от&nbsp;технико-экономического обоснования при
-      планировании строительства или покупки гостиницы до&nbsp;консультаций по&nbsp;стратегии выхода из&nbsp;гостиничного
-      бизнеса.
-    </div>
-    <div class="main__content-item">
-      Мы&nbsp;готовы оказать помощь в&nbsp;создании, развитии, или эксплуатации гостиничного объекта. Пожалуйста,
-      свяжитесь с&nbsp;нами, чтобы узнать больше о&nbsp;том, как мы&nbsp;можем вам помочь.
-    </div>
-  </div>
-</section>
+<section class="services__if container">
+  <div class="services__if-item">
+    <div class="services__if-title">Если вы</div>
 
-<section class="container">
-  <h2 class="main__title">Наши услуги</h2>
+    <svg class="services__if-icon">
+      <use xlink:href="/assets/img/icons.svg#owner"></use>
+    </svg>
 
-  <div class="main__services" id="js-main__services">
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Глубокий анализ реализуемости проекта
-        </h5>
-        <div class="main__services-text">
-          Принимайте взвешенные инвестиционные решения
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Поиск гостиничного оператора
-        </h5>
-        <div class="main__services-text">
-          Передайте операционку профессионалам
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Операционный аудит
-        </h5>
-        <div class="main__services-text">
-          Обеспечьте максимальную отдачу от своей гостиницы
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Технический аудит
-        </h5>
-        <div class="main__services-text">
-          Узнайте состояние здания, оборудования и мебели в гостинице
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Автоматизация управленческого учета в гостинице
-        </h5>
-        <div class="main__services-text">
-          Сосредоточьтесь на анализе результатов, а не на бесконечном ожидании отчетов
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Поиск топ-менеджмента
-        </h5>
-        <div class="main__services-text">
-          Найдите лучших сотрудников в свою гостиницу
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Брокерские услуги
-        </h5>
-        <div class="main__services-text">
-          Продайте гостиницу по лучшей цене
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Внедрение USALI
-        </h5>
-        <div class="main__services-text">
-          Используйте лучшие в мире стандарты отчетности для гостиниц
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-
-    <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
-        <h5 class="main__services-title">
-          Проектирование и дизайн
-        </h5>
-        <div class="main__services-text">
-          Спроектируйте гостиницу, которая будет привлекать гостей
-        </div>
-        <div class="main__services-btn">
-          <svg class="main__services-icon">
-            <use xlink:href="/assets/img/icons.svg#arrow"></use>
-          </svg>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="main__tell">
-  <div class="main__tell-inner container">
-    <h2 class="main__title">Расскажите о&nbsp;Ваших&nbsp;задачах</h2>
-
-    <div class="main__tell-content">
-      И&nbsp;мы&nbsp;поможем сделать исследование рынка, получить инвестиции для строительства
-      гостиницы, улучшить качество обслуживания гостей
-      и&nbsp;увеличить стоимость Вашего бизнеса
-    </div>
-
-
-    <a class="main__tell-button btn__primary btn" href="#">
-      Связаться с нами
-      <svg class="btn__primary-icon">
-        <use xlink:href="/assets/img/icons.svg#arrow"></use>
-      </svg>
-    </a>
-  </div>
-</section>
-
-<section class="main__team container">
-  <h2 class="main__title">Наша команда</h2>
-
-  <div class="main__team-inner">
-    <aside class="main__team-aside">
-      <div class="main__team-date">17</div>
-      <p>
-        Обладает более чем 17-летним опытом
-        в&nbsp;сфере гостиничной недвижимости.
-      </p>
-      <p>
-        Имеет опыт работы
-        в&nbsp;международных компаниях (JLL, Cushman &amp;&nbsp;Wakefield, DIZ) и&nbsp;выполняла разработку концепций гостиничных проектов, оценку действующих
-        и&nbsp;строящихся гостиниц, подготовку бизнес-планов для гостиничных комплексов
-      </p>
-    </aside>
-
-    <div>
-      <div class="main__team-text">
-        Участвовала в&nbsp;крупных девелоперских проектах по&nbsp;строительству гостиниц.
-      </div>
-
-      <div class="main__team-part" id="js-main__team-part">
-        <div class="main__team-box">
-          <div class="main__team-boxed">
-            <div>
-              &laquo;Строительство гостиницы для членов Международного олимпийского комитета на&nbsp;500&nbsp;номеров&raquo;
-            </div>
-            <strong>Бренд-<a href="#">Radisson Blu Resort&Congress Centre, Sochi</a></strong>
-          </div>
-        </div>
-
-        <div class="main__team-box">
-          <div class="main__team-boxed">
-            <div>
-              &laquo;Строительство гостиницы для членов Международного олимпийского комитета на&nbsp;500&nbsp;номеров&raquo;
-            </div>
-            <strong>Бренд-<a href="#">Radisson Collection Paradise Resort&Spa</a></strong>
-          </div>
-        </div>
-
-        <div class="main__team-box">
-          <div class="main__team-boxed">
-            «Строительство тематического парка приключений в&nbsp;Имеретинской низменности&quot;
-          </div>
-        </div>
-
-        <div class="main__team-box">
-          <div class="main__team-boxed">
-            <div>
-              &laquo;Строительство многофункционального инфраструктурного комплекса Курорт Золотое кольцо
-              в&nbsp;Ярославской области&raquo;
-            </div>
-            <strong>Бренд-<a href="#">Azimut Hotel Pereslavl</a></strong>
-          </div>
-        </div>
-      </div>
+    <div class="services__if-text">
+      Владелец земли, изучающий возможность строительства гостиницы
     </div>
   </div>
 
-  <div class="main__persons" id="js-main__persons">
-    <div class="main__person-item">
-      <img class="main__person-img" src="/assets/img/team/priaslov.jpg" alt="">
+  <div class="services__if-item">
+    <div class="services__if-title">Если вы</div>
 
-      <h4 class="main__person-title">Алексей Пряслов</h4>
+    <svg class="services__if-icon">
+      <use xlink:href="/assets/img/icons.svg#creditor"></use>
+    </svg>
 
-      <div class="main__person-text">Управляющий директор</div>
-
-      <a href="mailto:ap@pfmpartners.com">ap@pfmpartners.com</a>
-    </div>
-
-    <div class="main__person-item">
-      <img class="main__person-img" src="/assets/img/team/uhanova.jpg" alt="">
-
-      <h4 class="main__person-title"> Яна Уханова</h4>
-
-      <div class="main__person-text">Управляющий директор</div>
-
-      <a href="mailto:yu@pfmpartners.com">yu@pfmpartners.com</a>
-    </div>
-
-    <div class="main__person-item">
-      <img class="main__person-img" src="/assets/img/team/nofedov.jpg" alt="">
-
-      <h4 class="main__person-title">Алексей Нефедов</h4>
-
-      <div class="main__person-text">Технический директор</div>
-
-      <a href="mailto:nef_alex@mail.ru">nef_alex@mail.ru</a>
-    </div>
-
-    <div class="main__person-item">
-      <img class="main__person-img" src="/assets/img/team/kilavuz.jpg" alt="">
-
-      <h4 class="main__person-title">Бедран Кылавуз</h4>
-
-      <div class="main__person-text">Консультант по&nbsp;архитектуре и&nbsp;дизайну гостиниц</div>
-
-      <a href="mailto:bedran@dsgnon.com">bedran@dsgnon.com</a>
+    <div class="services__if-text">
+      Кредитор, организующий финансирование для строительства гостиницы
     </div>
   </div>
 
-  <div class="main__person-content">
-    Наши специалисты прошли обучение в&nbsp;Real Estate Investments and Asset Management Университета Cornell, США,
-    а&nbsp;также имеют квалификацию ACCA DipIFR, CIMA Adv Dip&nbsp;MA.
-  </div>
-</section>
+  <div class="services__if-item">
+    <div class="services__if-title">Если вы</div>
 
-<section class="main__contacts">
-  <div class="main__contacts-inner container">
-    <aside class="main__contacts-info">
-      <h2 class="main__contacts-title main__title">Контакты</h2>
+    <svg class="services__if-icon">
+      <use xlink:href="/assets/img/icons.svg#official"></use>
+    </svg>
 
-      <ul class="main__contacts-list list-unstyled">
-        <li class="main__contacts-item">
-          <svg class="main__contacts-icon">
-            <use xlink:href="/assets/img/icons.svg#phone"></use>
-          </svg>
-          <div>Телефон</div>
-          <a class="main__contacts-link" href="tel:+7 (915) 828-00-33" rel="nofollow">+7 (915) 828-00-33</a>
-        </li>
-
-        <li class="main__contacts-item">
-          <svg class="main__contacts-icon">
-            <use xlink:href="/assets/img/icons.svg#email"></use>
-          </svg>
-          <div>e-mail</div>
-          <a class="main__contacts-link" href="mailto:info@pfmpartners.com" rel="nofollow">info@pfmpartners.com</a>
-        </li>
-      </ul>
-    </aside>
-
-    <div class="main__contacts-map">
-      <img src="/assets/img/example/map.jpg" style="height: 100%; object-fit: cover" alt="">
+    <div class="services__if-text">
+      Государственное учреждение и&nbsp;хотите подробно разобраться в&nbsp;гостиничном рынке Вашего региона
     </div>
-  </div>
-</section>
-
-<section class="main__connection">
-  <div class="main__connection-inner container">
-    <div>
-      <h2 class="main__connection-title main__title">Остались вопросы?</h2>
-      <div class="main__connection-text">
-        Наши специалисты ответят на&nbsp;все&nbsp;интересующие Вас&nbsp;вопросы.
-      </div>
-    </div>
-
-    <form class="main__connection-form" action="/">
-      <div class="main__connection-inputs">
-        <div class="form__group">
-          <label class="form__label" for="form__name">Ваше имя</label>
-          <input type="text" class="form__filed" id="form__name" placeholder="Представьтесь пожалуйста">
-        </div>
-        <div class="form__group">
-          <label class="form__label" for="form__email">Ваш e-mail</label>
-          <input type="email" class="form__filed" id="form__email" placeholder="Post@post.ru">
-        </div>
-      </div>
-
-      <div class="main__connection-textarea form__group">
-        <label class="form__label" for="form__message">Сообщение</label>
-        <textarea class="form__textarea" id="form__message" placeholder="Напишите ваш вопрос"></textarea>
-      </div>
-
-      <div class="main__connection-agree">
-        Нажимая на&nbsp;кнопку вы&nbsp;даете согласие на&nbsp;обработку персональных данных
-      </div>
-
-      <button class="main__connection-btn btn__primary btn">
-        Отправить
-        <svg class="btn__primary-icon">
-          <use xlink:href="/assets/img/icons.svg#arrow"></use>
-        </svg>
-      </button>
-    </form>
   </div>
 </section>
 {% endblock %}
