@@ -168,3 +168,11 @@
     padding-right: 19px;
   }
 }
+
+@media (max-width: 360px) {
+  .footer__services-link,
+  .footer__nav-item,
+  .footer__info-copy {
+    font-size: 16px
+  }
+}
