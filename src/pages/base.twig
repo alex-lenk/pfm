@@ -1,0 +1,38 @@
+{% extends 'components/layout.twig' %}
+{% set title = "База знаний" %}
+
+{% block headerPages %}
+<header class="header__page">
+  <div class="container">
+    <h1 class="header__page-title">База знаний</h1>
+
+    <ol class="breadcrumbs list-unstyled">
+      <li class="breadcrumbs__item">
+        <a href="/" class="breadcrumbs__link">Главная</a>
+      </li>
+      <li class="breadcrumbs__item breadcrumbs__item-current">База знаний</li>
+    </ol>
+  </div>
+</header>
+{% endblock %}
+
+{% block content %}
+<section class="base container">
+  <h2 class="main__title">Аналитика</h2>
+
+  <div class="base__media">
+    <img class="base__media-img" src="/assets/img/example/analytics.jpg" alt="">
+  </div>
+
+  <p class="base__text">
+    Ежеквартальный отчет по Occupancy, ADR, RevPAR Москвы
+  </p>
+
+  <a class="base__button btn__primary btn" href="#">
+    Показать еще
+    <svg class="btn__primary-icon">
+      <use xlink:href="/assets/img/icons.svg#arrow"></use>
+    </svg>
+  </a>
+</section>
+{% endblock %}
