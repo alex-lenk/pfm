@@ -1,5 +1,4 @@
 .base {
-  margin-bottom: 60px;
   padding-top: 40px;
   text-align: center;
 }
@@ -23,7 +22,16 @@
   min-width: 260px;
 }
 
+@media (min-width: 576px) {
+  .base {
+    margin-bottom: 60px;
+  }
+}
+
 @media (max-width: 576px) {
+  .base {
+    margin-bottom: 40px;
+  }
   .base__media {
     height: 220px;
     margin-bottom: 35px;

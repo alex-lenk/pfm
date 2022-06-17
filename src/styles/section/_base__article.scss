@@ -1,10 +1,11 @@
 .base__article {
   margin-bottom: 70px;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
   .base__article-list {
-    margin-bottom: 52px;
+    margin-bottom: 55px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 45px;
