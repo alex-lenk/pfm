@@ -1,8 +1,25 @@
 {% extends 'components/layout.twig' %}
-{% set title = "PFM &#8212; полнофункцианальная фирма &#8212; Настраиваем управленческий учет. Создаем финансовые модели. Внедряем интерактивные отчеты" %}
+{% set title = "Услуги" %}
 
 {% block headerPages %}
-  {% include 'components/main__header.twig' %}
+  {#{% include 'components/header-page.twig' %}#}
+<header class="header__page">
+  <div class="container">
+    <h1 class="header__page-title">Глубокий анализ реализуемости проекта</h1>
+
+    <ol class="breadcrumbs list-unstyled">
+      <li class="breadcrumbs__item">
+        <a href="/" class="breadcrumbs__link">Главная</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="/services.html" class="breadcrumbs__link">Услуги</a>
+      </li>
+      <li class="breadcrumbs__item breadcrumbs__item-current">Глубокий анализ реализуемости проекта</li>
+    </ol>
+  </div>
+</header>
+
+
 {% endblock %}
 
 {% block content %}

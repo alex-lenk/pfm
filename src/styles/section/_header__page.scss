@@ -1,0 +1,31 @@
+.header__page {
+  color: #fff;
+
+  @media (min-width: 768px) {
+    min-height: 135px;
+    padding: 20px 0;
+    background: url(../img/bg/header-page.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 248px;
+    padding: 14px 0;
+    background: url(../img/bg/header-page-m.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  &-title {
+    @media (min-width: 576px) {
+      margin-bottom: 13px;
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    @media (max-width: 576px) {
+      margin-bottom: 22px;
+      font-size: get-vw(34px, 375);
+      line-height: get-vw(43px, 375);
+    }
+  }
+}
