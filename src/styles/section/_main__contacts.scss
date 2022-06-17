@@ -19,11 +19,16 @@
   position: absolute;
   top: 0;
   left: 0;
+  fill: #2462BC;
 }
 
 .main__contacts-link {
   font-weight: 900;
   color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
 }
 
 .main__contacts-map {
