@@ -21,7 +21,7 @@
 
 .main__services-text {
   font-weight: 300;
-  font-size: 20px;
+
   line-height: 25px;
 }
 
@@ -45,7 +45,10 @@
 
 @media (min-width: 576px) {
   .main__services {
+    padding-top: 85px;
     padding-bottom: 95px;
+  }
+  .main__services-list {
     display: grid;
   }
   .main__services-btn {
@@ -54,20 +57,23 @@
 }
 
 @media (min-width: 992px) {
-  .main__services {
+  .main__services-list {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1200px) {
-  .main__services {
+  .main__services-list {
     grid-column-gap: 40px;
     grid-row-gap: 40px;
   }
 }
 
 @media (max-width: 576px) {
+  .main__services {
+    padding-top: 40px;
+  }
   .main__services-item {
     padding-left: 20px;
     padding-right: 20px;
@@ -81,14 +87,14 @@
 }
 
 @media (min-width: 576px) and (max-width: 1200px) {
-  .main__services {
+  .main__services-list {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
-  .main__services {
+  .main__services-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }

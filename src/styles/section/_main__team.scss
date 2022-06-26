@@ -1,5 +1,5 @@
 .main__team {
-  margin-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .main__team-inner {
@@ -7,8 +7,6 @@
 }
 
 .main__team-aside {
-  font-weight: 900;
-  font-size: 20px;
   line-height: 24px;
 }
 
@@ -18,7 +16,6 @@
 }
 
 .main__team-text {
-  font-size: 20px;
   line-height: 24px;
 }
 
@@ -28,7 +25,6 @@
   border: 1px solid #e1e1e1;
   box-shadow: 0 7px 15px rgba($body-color, .15);
   border-radius: 9px;
-  font-size: 20px;
   line-height: 24px;
 }
 
@@ -37,7 +33,6 @@
 }
 
 .main__person-item {
-  font-size: 20px;
   line-height: 25px;
   text-align: center;
   font-weight: 300;
@@ -56,12 +51,14 @@
 .main__person-content {
   max-width: 83%;
   margin: 0 auto;
-  font-size: 20px;
   line-height: 25px;
   text-align: center;
 }
 
 @media (min-width: 576px) {
+  .main__team {
+    padding-top: 75px;
+  }
   .main__team-date {
     font-size: 200px;
   }
@@ -105,6 +102,9 @@
 }
 
 @media (max-width: 576px) {
+  .main__team {
+    padding-top: 40px;
+  }
   .main__team-aside p:last-of-type {
     clear: left;
   }

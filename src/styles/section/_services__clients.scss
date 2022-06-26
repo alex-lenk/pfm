@@ -1,11 +1,8 @@
 .services__clients-title {
   margin-bottom: 42px;
-  font-size: 20px;
 }
 
 .services__clients-item {
-  font-size: 20px;
-  line-height: 1;
   display: flex;
 
   &:not(:last-child) {
@@ -38,7 +35,7 @@
 
 @media (min-width: 1200px) {
   .services__clients-box {
-    width: 37%;
+    width: 43%;
   }
 }
 

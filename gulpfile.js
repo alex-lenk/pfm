@@ -147,9 +147,9 @@ const myServer = () => {
     server: {
       baseDir: pathFiles.html.build
     },
-    port: 4004,
+    port: 3014,
     notify: false,
-    tunnel: true
+    tunnel: false
   })
   watch(pathFiles.html.watch, {usePolling: true}, HTML);
   watch(pathFiles.css.watch, SCSS);

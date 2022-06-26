@@ -3,14 +3,11 @@
 }
 
 .main__content-item {
-  font-size: 20px;
+
   line-height: 1.2;
 }
 
 @media (min-width: 576px) {
-  .main__content {
-    margin-bottom: 85px;
-  }
   .main__content-inner {
     padding-top: 80px;
     padding-bottom: 60px;
@@ -31,9 +28,6 @@
 }
 
 @media (max-width: 576px) {
-  .main__content {
-    margin-bottom: 25px;
-  }
   .main__content-inner {
     padding-top: 27px;
     padding-bottom: 45px;

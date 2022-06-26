@@ -9,7 +9,6 @@
 .main__tell-content {
   max-width: 769px;
   margin: 0 auto 36px;
-  font-size: 20px;
   line-height: 24px;
 }
 
@@ -20,7 +19,6 @@
 
 @media (min-width: 576px) {
   .main__tell {
-    margin-bottom: 75px;
     background-image: url(../img/bg/tell-us.jpg);
     background-position: center;
   }
@@ -34,7 +32,6 @@
 
 @media (max-width: 576px) {
   .main__tell {
-    margin-bottom: 40px;
     padding-top: 36px;
     background-position: top center;
   }
