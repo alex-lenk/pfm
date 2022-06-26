@@ -13,7 +13,7 @@ $(document).ready(function () {
   let js__goAnchor = '.js__go-anchor';
   $(js__goAnchor).on('click', function (e) {
     e.preventDefault();
-    let fixed_offset = 10;
+    let fixed_offset = 90;
     $('html, body').stop().animate({scrollTop: $(this.hash).offset().top - fixed_offset}, 900);
   });
   /* END */

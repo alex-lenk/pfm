@@ -1,13 +1,13 @@
 {% extends 'components/layout.twig' %}
 {% set title = "PFM &#8212; полнофункцианальная фирма &#8212; Настраиваем управленческий учет. Создаем финансовые модели. Внедряем интерактивные отчеты" %}
 {% set description = "PFM &#8212; полнофункцианальная фирма &#8212; Настраиваем управленческий учет. Создаем финансовые модели. Внедряем интерактивные отчеты" %}
-
+{% set online = true %}
 {% block headerPages %}
   {% include 'components/main__header.twig' %}
 {% endblock %}
 
 {% block content %}
-<section class="main__content">
+<section class="main__content" id="about">
   <div class="main__content-inner container">
     <div class="main__content-item">
       <strong>
@@ -32,12 +32,12 @@
   </div>
 </section>
 
-<section class="main__services container">
+<section class="main__services container" id="services">
   <h2 class="main__title">Наши услуги</h2>
 
   <div class="main__services-list" id="js-main__services">
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#" target="_blank">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Глубокий анализ реализуемости проекта
         </h5>
@@ -53,7 +53,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Поиск гостиничного оператора
         </h5>
@@ -69,7 +69,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Операционный аудит
         </h5>
@@ -85,7 +85,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Технический аудит
         </h5>
@@ -101,7 +101,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Автоматизация управленческого учета в гостинице
         </h5>
@@ -117,7 +117,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Поиск топ-менеджмента
         </h5>
@@ -133,7 +133,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Брокерские услуги
         </h5>
@@ -149,7 +149,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Внедрение USALI
         </h5>
@@ -165,7 +165,7 @@
     </div>
 
     <div class="main__services-item">
-      <a class="main__services-wrap" href="#">
+      <a class="main__services-wrap" href="services.html">
         <h5 class="main__services-title">
           Проектирование и дизайн
         </h5>
@@ -202,7 +202,7 @@
   </div>
 </section>
 
-<section class="main__team container">
+<section class="main__team container" id="team">
   <h2 class="main__title">Наша команда</h2>
 
   <div class="main__team-inner">
@@ -310,7 +310,7 @@
   </div>
 </section>
 
-<section class="main__contacts">
+<section class="main__contacts" id="contacts">
   <div class="main__contacts-inner container">
     <aside class="main__contacts-info">
       <h2 class="main__contacts-title main__title">Контакты</h2>
@@ -340,7 +340,7 @@
   </div>
 </section>
 
-<section class="main__connection">
+<section class="main__connection" id="connection">
   <div class="main__connection-inner container">
     <div>
       <h2 class="main__connection-title main__title">Остались вопросы?</h2>
