@@ -10,6 +10,7 @@
   border: 1px solid #e1e1e1;
   box-shadow: 0 7px 15px rgba($body-color, .15);
   border-radius: 9px;
+  transition: color .2s ease-in-out;
 }
 
 .main__services-title {
@@ -23,17 +24,6 @@
   font-weight: 300;
 
   line-height: 25px;
-}
-
-.main__services-btn {
-  width: 37px;
-  height: 37px;
-  background-color: #2462BC;
-  border-radius: 7px;
-  display: inline-flex;
-  align-self: center;
-  position: absolute;
-  bottom: 13px;
 }
 
 .main__services-icon {
@@ -50,9 +40,6 @@
   }
   .main__services-list {
     display: grid;
-  }
-  .main__services-btn {
-    right: 13px;
   }
 }
 
@@ -80,9 +67,6 @@
   }
   .main__services-wrap {
     min-height: 255px;
-  }
-  .main__services-btn {
-    right: 19px;
   }
 }
 

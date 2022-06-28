@@ -11,19 +11,25 @@
   line-height: 25px;
 }
 
+.base__video-media {
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.base__video-frame {
+  border-radius: 8px;
+}
+
 @media (min-width: 576px) {
   .base__video-list {
     margin-bottom: 52px;
-  }
-  .base__video-media {
-    margin-bottom: 50px;
   }
 }
 
 @media (min-width: 992px) {
   .base__video-list {
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 50px;
+    gap: 50px;
   }
 }
 
@@ -34,16 +40,12 @@
   .base__video-item:not(:last-child) {
     margin-bottom: 30px;
   }
-  .base__video-media {
-    margin-bottom: 20px;
-  }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
   .base__video-list {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
+    gap: 40px;
   }
 }
