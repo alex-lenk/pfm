@@ -32,20 +32,7 @@ $(document).ready(function () {
   }
 
 
-  /* BEGIN: Инициализация плавающего блока на десктопной версия странице */
-  /*if ($(window).width() > 576) {
-    var elementFixed = '.menu-wrap';
-  } else {
-    var elementFixed = '.header-top';
-  }
-  var elementPosition = $(elementFixed).offset();
-
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > elementPosition.top) {
-      $(elementFixed).addClass("menu-fixed");
-    } else {
-      $(elementFixed).removeClass("menu-fixed");
-    }
-  });*/
-  /* END */
+  // Begin: Антиспам
+  $('.ajax_form').append('<input type="text" name="org" value="" class="_org" style="visibility:hidden; height: 0; width: 0; padding: 0; border:none;"/>')
+  // END: Антиспам
 });
