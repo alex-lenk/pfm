@@ -1,7 +1,3 @@
-.main__team {
-  padding-bottom: 40px;
-}
-
 .main__team-inner {
   margin-bottom: 50px;
 }
@@ -56,9 +52,6 @@
 }
 
 @media (min-width: 576px) {
-  .main__team {
-    padding-top: 75px;
-  }
   .main__team-date {
     font-size: 200px;
   }
@@ -102,9 +95,6 @@
 }
 
 @media (max-width: 576px) {
-  .main__team {
-    padding-top: 40px;
-  }
   .main__team-aside p:last-of-type {
     clear: left;
   }

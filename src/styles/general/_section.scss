@@ -1,0 +1,26 @@
+.section__title {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .section {
+    padding-top: 85px;
+    padding-bottom: 95px;
+  }
+  .section__title {
+    margin-bottom: 37px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding-top: 40px;
+  }
+  .section__title {
+    margin-bottom: get-vw(24px, 375);
+    font-size: get-vw(34px, 375);
+    line-height: get-vw(43px, 375);
+  }
+}

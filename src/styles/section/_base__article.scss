@@ -1,9 +1,11 @@
 .base__article {
-  margin-bottom: 70px;
   text-align: center;
 }
 
 @media (min-width: 576px) {
+  .base__article {
+    margin-bottom: 95px;
+  }
   .base__article-list {
     margin-bottom: 55px;
     display: grid;
@@ -16,6 +18,9 @@
 }
 
 @media (max-width: 576px) {
+  .base__article {
+    margin-bottom: 70px;
+  }
   .base__article-list {
     margin-bottom: 40px;
   }

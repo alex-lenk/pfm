@@ -70,3 +70,39 @@
     <a class="footer__contacts-phone" href="tel:+7 (915) 828-00-33" rel="nofollow">+7 (915) 828-00-33</a>
   </div>
 </footer>
+
+
+<div class="hystmodal hystmodal--simple" id="modalSimple" aria-hidden="true">
+  <div class="hystmodal__wrap">
+    <div class="hystmodal__window hystmodal__window--form" role="dialog" aria-modal="true">
+      <form action="/">
+        <div class="form__group">
+          <label class="form__label" for="form__phone">Ваш телефон</label>
+          <input type="tel" class="form__filed form__filed--gray js-phone" id="form__phone" placeholder="+ 7 (___) ___-__-__">
+        </div>
+
+        <div class="form__group main__connection-agree">
+          Нажимая на&nbsp;кнопку вы&nbsp;даете согласие на&nbsp;обработку персональных данных
+        </div>
+
+        <button class="main__connection-btn btn__primary btn">
+          Отправить
+          <svg class="btn__primary-icon">
+            <use xlink:href="/assets/img/icons.svg#arrow"></use>
+          </svg>
+        </button>
+      </form>
+
+      <div class="modal__final">
+        <h4 class="modal__final-title">Благодарим за доверие!</h4>
+
+        <div class="modal__final-text">
+          Наши специалисты <br>
+          с вами свяжутся
+        </div>
+      </div>
+
+      <button class="hystmodal__close" data-hystclose>Закрыть</button>
+    </div>
+  </div>
+</div>

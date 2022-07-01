@@ -1,5 +1,4 @@
 .base {
-  padding-top: 40px;
   text-align: center;
 }
 
@@ -18,19 +17,10 @@
 }
 
 .base__more-button {
-  min-width: 260px;
-}
-
-@media (min-width: 576px) {
-  .base {
-    margin-bottom: 60px;
-  }
+  max-width: 290px;
 }
 
 @media (max-width: 576px) {
-  .base {
-    margin-bottom: 40px;
-  }
   .base__media {
     height: 220px;
     margin-bottom: 35px;

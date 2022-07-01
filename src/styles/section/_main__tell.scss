@@ -1,5 +1,5 @@
 .main__tell {
-  height: 473px;
+  min-height: 473px;
   text-align: center;
   background-image: url(../img/bg/tell-us-m.jpg);
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 }
 
 .main__tell-button {
-  min-width: 260px;
+  max-width: 290px;
   align-self: center;
 }
 

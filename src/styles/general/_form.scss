@@ -13,7 +13,6 @@
   width: 100%;
   padding: 0 16px;
   color: $body-color;
-  background: #fff;
   border-radius: 9px;
   display: block;
   border: 0;
@@ -32,6 +31,14 @@
       transition: opacity .2s ease-in-out;
     }
   }
+}
+
+.form__filed--white {
+  background: #fff;
+}
+
+.form__filed--gray {
+  background: #EDEDED;
 }
 
 .form__filed {

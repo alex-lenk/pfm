@@ -1,13 +1,12 @@
 {% extends 'components/layout.twig' %}
 {% set title = "PFM &#8212; полнофункцианальная фирма &#8212; Настраиваем управленческий учет. Создаем финансовые модели. Внедряем интерактивные отчеты" %}
 {% set description = "PFM &#8212; полнофункцианальная фирма &#8212; Настраиваем управленческий учет. Создаем финансовые модели. Внедряем интерактивные отчеты" %}
-{% set online = true %}
+{% set isHomePage = 'yes' %}
 {% block headerPages %}
   {% include 'components/main__header.twig' %}
 {% endblock %}
-
 {% block content %}
-<section class="main__content" id="about">
+<section class="main__content section" id="about">
   <div class="main__content-inner container">
     <div class="main__content-item">
       <strong>
@@ -32,8 +31,8 @@
   </div>
 </section>
 
-<section class="main__services container" id="services">
-  <h2 class="main__title">Наши услуги</h2>
+<section class="main__services container section" id="services">
+  <h2 class="section__title">Наши услуги</h2>
 
   <div class="main__services-list" id="js-main__services">
     <div class="main__services-item">
@@ -137,9 +136,9 @@
   </div>
 </section>
 
-<section class="main__tell">
+<section class="main__tell section">
   <div class="main__tell-inner container">
-    <h2 class="main__title">Расскажите о&nbsp;Ваших&nbsp;задачах</h2>
+    <h2 class="section__title">Расскажите о&nbsp;Ваших&nbsp;задачах</h2>
 
     <div class="main__tell-content">
       И&nbsp;мы&nbsp;поможем сделать исследование рынка, получить инвестиции для строительства
@@ -148,17 +147,17 @@
     </div>
 
 
-    <a class="main__tell-button btn__primary btn" href="#">
+    <button type="button" class="main__tell-button btn__primary btn" data-hystmodal="#modalSimple">
       Связаться с нами
       <svg class="btn__primary-icon">
         <use xlink:href="/assets/img/icons.svg#arrow"></use>
       </svg>
-    </a>
+    </button>
   </div>
 </section>
 
-<section class="main__team container" id="team">
-  <h2 class="main__title">Наша команда</h2>
+<section class="main__team container section" id="team">
+  <h2 class="section__title">Наша команда</h2>
 
   <div class="main__team-inner">
     <aside class="main__team-aside">
@@ -268,7 +267,7 @@
 <section class="main__contacts" id="contacts">
   <div class="main__contacts-inner container">
     <aside class="main__contacts-info">
-      <h2 class="main__contacts-title main__title">Контакты</h2>
+      <h2 class="main__contacts-title section__title">Контакты</h2>
 
       <ul class="main__contacts-list list-unstyled">
         <li class="main__contacts-item">
@@ -295,10 +294,10 @@
   </div>
 </section>
 
-<section class="main__connection" id="connection">
+<section class="main__connection section" id="connection">
   <div class="main__connection-inner container">
     <div>
-      <h2 class="main__connection-title main__title">Остались вопросы?</h2>
+      <h2 class="main__connection-title section__title">Остались вопросы?</h2>
       <div class="main__connection-text">
         Наши специалисты ответят на&nbsp;все&nbsp;интересующие Вас&nbsp;вопросы.
       </div>
@@ -308,17 +307,17 @@
       <div class="main__connection-inputs">
         <div class="form__group">
           <label class="form__label" for="form__name">Ваше имя</label>
-          <input type="text" class="form__filed" id="form__name" placeholder="Представьтесь пожалуйста">
+          <input type="text" class="form__filed form__filed--white" id="form__name" placeholder="Представьтесь пожалуйста">
         </div>
         <div class="form__group">
           <label class="form__label" for="form__email">Ваш e-mail</label>
-          <input type="email" class="form__filed" id="form__email" placeholder="Post@post.ru">
+          <input type="email" class="form__filed form__filed--white" id="form__email" placeholder="Post@post.ru">
         </div>
       </div>
 
       <div class="main__connection-textarea form__group">
         <label class="form__label" for="form__message">Сообщение</label>
-        <textarea class="form__textarea" id="form__message" placeholder="Напишите ваш вопрос"></textarea>
+        <textarea class="form__textarea form__filed--white" id="form__message" placeholder="Напишите ваш вопрос"></textarea>
       </div>
 
       <div class="main__connection-agree">

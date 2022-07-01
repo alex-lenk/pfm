@@ -1,6 +1,4 @@
-
 .main__connection {
-  padding-bottom: 40px;
   background-color: #2462BC;
 }
 
@@ -14,14 +12,15 @@
 }
 
 .main__connection-btn {
-  min-width: 263px;
+  max-width: 263px;
   background-color: #73B5FF;
 }
 
+.main__connection-agree {
+  font-size: 16px;
+}
+
 @media (min-width: 768px) {
-  .main__connection {
-    padding-top: 80px;
-  }
   .main__connection-inner {
     display: flex;
   }
@@ -67,9 +66,6 @@
 }
 
 @media (max-width: 768px) {
-  .main__connection {
-    padding-top: 32px;
-  }
   .main__connection-text {
     margin-bottom: 26px;
     text-align: center;

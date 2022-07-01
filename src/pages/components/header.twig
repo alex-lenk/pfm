@@ -9,19 +9,19 @@
     <nav class="header__nav">
       <ul class="menu list-unstyled">
         <li class="menu__item">
-          <a class="menu__link{% if online != true %}js__go-anchor{% endif %}" href="{% if online != true %}index.html{% endif %}#about">О нас</a>
+          <a class="menu__link{% if isHomePage == 'yes' %} js__go-anchor{% endif %}" href="{% if isHomePage == 'no' %}index.html{% endif %}#about">О нас</a>
         </li>
         <li class="menu__item">
-          <a class="menu__link{% if online != true %}js__go-anchor{% endif %}" href="#services">Услуги</a>
+          <a class="menu__link{% if isHomePage == 'yes' %} js__go-anchor{% endif %}" href="{% if isHomePage == 'no' %}index.html{% endif %}#services">Услуги</a>
         </li>
         <li class="menu__item">
-          <a class="menu__link{% if online != true %}js__go-anchor{% endif %}" href="#team">Команда</a>
+          <a class="menu__link{% if isHomePage == 'yes' %} js__go-anchor{% endif %}" href="{% if isHomePage == 'no' %}index.html{% endif %}#team">Команда</a>
         </li>
         <li class="menu__item">
           <a class="menu__link" href="/base.html">База знаний</a>
         </li>
         <li class="menu__item">
-          <a class="menu__link{% if online != true %}js__go-anchor{% endif %}" href="#contacts">Контакты</a>
+          <a class="menu__link{% if isHomePage == 'yes' %} js__go-anchor{% endif %}" href="{% if isHomePage == 'no' %}index.html{% endif %}#contacts">Контакты</a>
         </li>
       </ul>
 

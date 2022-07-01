@@ -34,10 +34,6 @@
 }
 
 @media (min-width: 576px) {
-  .main__services {
-    padding-top: 85px;
-    padding-bottom: 95px;
-  }
   .main__services-list {
     display: grid;
   }
@@ -58,9 +54,6 @@
 }
 
 @media (max-width: 576px) {
-  .main__services {
-    padding-top: 40px;
-  }
   .main__services-item {
     padding-left: 20px;
     padding-right: 20px;

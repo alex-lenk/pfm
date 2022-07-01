@@ -1,7 +1,7 @@
 {% extends 'components/layout.twig' %}
 {% set title = "База знаний" %}
 {% set description = "База знаний &#8212; PFM &#8212; полнофункцианальная фирма" %}
-
+{% set isHomePage = 'no' %}
 {% block headerPages %}
 <header class="header__page">
   <div class="container">
@@ -18,132 +18,138 @@
 {% endblock %}
 
 {% block content %}
-<section class="base container">
-  <h2 class="main__title">Аналитика</h2>
+<div class="container">
+  <section class="base section">
+    <h2 class="section__title">Аналитика</h2>
 
-  <div class="base__media">
-    <img class="base__media-img" src="/assets/img/example/analytics.jpg" alt="">
-  </div>
+    <div class="base__media">
+      <img class="base__media-img" src="/assets/img/example/analytics.jpg" alt="">
+    </div>
 
-  <p class="base__text">
-    Ежеквартальный отчет по Occupancy, ADR, RevPAR Москвы
-  </p>
+    <p class="base__text">
+      Ежеквартальный отчет по Occupancy, ADR, RevPAR Москвы
+    </p>
 
-  <div class="base__more">
-    <a class="base__more-button btn__primary btn" href="#">
-      Показать еще
-      <svg class="btn__primary-icon">
-        <use xlink:href="/assets/img/icons.svg#arrow"></use>
-      </svg>
-    </a>
-  </div>
-</section>
+    <div class="base__more">
+      <a class="base__more-button btn__primary btn" href="#">
+        Показать еще
+        <svg class="btn__primary-icon">
+          <use xlink:href="/assets/img/icons.svg#arrow"></use>
+        </svg>
+      </a>
+    </div>
+  </section>
 
-<article class="base__article container">
-  <h2 class="main__title">Статьи</h2>
+  <article class="base__article">
+    <h2 class="section__title">Статьи</h2>
 
-  <ul class="base__article-list list-unstyled">
-    <li class="base__article-item">
-      <img class="base__article-media" src="/assets/img/example/article-1.jpg" alt="">
+    <ul class="base__article-list list-unstyled">
+      <li class="base__article-item">
+        <img class="base__article-media" src="/assets/img/example/article-1.jpg" alt="">
 
-      <div>
-        International Business Communication Standards или как добиться последовательности в управленческой отчетности
-      </div>
-    </li>
-    <li class="base__article-item">
-      <img class="base__article-media" src="/assets/img/example/article-1.jpg" alt="">
-      <div>
-        Зачем и как считать риск в бизнесе?
-      </div>
-    </li>
-  </ul>
+        <div>
+          International Business Communication Standards или как добиться последовательности в управленческой
+          отчетности
+        </div>
+      </li>
+      <li class="base__article-item">
+        <img class="base__article-media" src="/assets/img/example/article-1.jpg" alt="">
+        <div>
+          Зачем и как считать риск в бизнесе?
+        </div>
+      </li>
+    </ul>
 
-  <div class="base__more">
-    <a class="base__more-button btn__primary btn" href="#">
-      Показать еще
-      <svg class="btn__primary-icon">
-        <use xlink:href="/assets/img/icons.svg#arrow"></use>
-      </svg>
-    </a>
-  </div>
-</article>
+    <div class="base__more">
+      <a class="base__more-button btn__primary btn" href="#">
+        Показать еще
+        <svg class="btn__primary-icon">
+          <use xlink:href="/assets/img/icons.svg#arrow"></use>
+        </svg>
+      </a>
+    </div>
+  </article>
 
-<article class="base__article container">
-  <h2 class="main__title">Видео</h2>
+  <article class="base__article">
+    <h2 class="section__title">Видео</h2>
 
-  <ul class="base__video-list list-unstyled">
-    <li class="base__video-item">
-      <div class="base__video-media">
-        <iframe class="base__video-frame" src="https://www.youtube.com/embed/qpm89xSasFc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+    <ul class="base__video-list list-unstyled">
+      <li class="base__video-item">
+        <div class="base__video-media">
+          <iframe class="base__video-frame" src="https://www.youtube.com/embed/qpm89xSasFc"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
 
-      <h4 class="base__video-title">KPI – быстрый способ понять как идут дела</h4>
+        <h4 class="base__video-title">KPI – быстрый способ понять как идут дела</h4>
 
-      <div class="base__video-date">07.06.22</div>
-    </li>
+        <div class="base__video-date">07.06.22</div>
+      </li>
 
-    <li class="base__video-item">
-      <img class="base__video-media" src="/assets/img/example/video-2.jpg" alt="">
+      <li class="base__video-item">
+        <img class="base__video-media" src="/assets/img/example/video-2.jpg" alt="">
 
-      <h4 class="base__video-title">USALI_PL by PFM</h4>
+        <h4 class="base__video-title">USALI_PL by PFM</h4>
 
-      <div class="base__video-date">07.06.22</div>
-    </li>
+        <div class="base__video-date">07.06.22</div>
+      </li>
 
-    <li class="base__video-item">
-      <img class="base__video-media" src="/assets/img/example/video-3.jpg" alt="">
+      <li class="base__video-item">
+        <img class="base__video-media" src="/assets/img/example/video-3.jpg" alt="">
 
-      <h4 class="base__video-title">Как искать инсайты?</h4>
+        <h4 class="base__video-title">Как искать инсайты?</h4>
 
-      <div class="base__video-date">07.06.22</div>
-    </li>
+        <div class="base__video-date">07.06.22</div>
+      </li>
 
-    <li class="base__video-item">
-      <img class="base__video-media" src="/assets/img/example/video-4.jpg" alt="">
+      <li class="base__video-item">
+        <img class="base__video-media" src="/assets/img/example/video-4.jpg" alt="">
 
-      <h4 class="base__video-title">Что дает факторный анализ?</h4>
+        <h4 class="base__video-title">Что дает факторный анализ?</h4>
 
-      <div class="base__video-date">07.06.22</div>
-    </li>
-  </ul>
+        <div class="base__video-date">07.06.22</div>
+      </li>
+    </ul>
 
-  <div class="base__more">
-    <a class="base__more-button btn__primary btn" href="#">
-      Показать еще
-      <svg class="btn__primary-icon">
-        <use xlink:href="/assets/img/icons.svg#arrow"></use>
-      </svg>
-    </a>
-  </div>
-</article>
+    <div class="base__more">
+      <a class="base__more-button btn__primary btn" href="#">
+        Показать еще
+        <svg class="btn__primary-icon">
+          <use xlink:href="/assets/img/icons.svg#arrow"></use>
+        </svg>
+      </a>
+    </div>
+  </article>
 
-<article class="base__article container">
-  <h2 class="main__title">Интерактивные отчеты</h2>
+  <article class="base__article">
+    <h2 class="section__title">Интерактивные отчеты</h2>
 
-  <ul class="base__article-list list-unstyled">
-    <li class="base__article-item">
-      <img class="base__article-media" src="/assets/img/example/inter-1.jpg" alt="">
+    <ul class="base__article-list list-unstyled">
+      <li class="base__article-item">
+        <img class="base__article-media" src="/assets/img/example/inter-1.jpg" alt="">
 
-      <div>
-        Daily Revenue Report для сети гостиниц
-      </div>
-    </li>
+        <div>
+          Daily Revenue Report для сети гостиниц
+        </div>
+      </li>
 
-    <li class="base__article-item">
-      <img class="base__article-media" src="/assets/img/example/inter-2.jpg" alt="">
-      <div>
-        Profit and Loss гостиницы
-      </div>
-    </li>
-  </ul>
+      <li class="base__article-item">
+        <img class="base__article-media" src="/assets/img/example/inter-2.jpg" alt="">
+        <div>
+          Profit and Loss гостиницы
+        </div>
+      </li>
+    </ul>
 
-  <div class="base__more">
-    <a class="base__more-button btn__primary btn" href="#">
-      Показать еще
-      <svg class="btn__primary-icon">
-        <use xlink:href="/assets/img/icons.svg#arrow"></use>
-      </svg>
-    </a>
-  </div>
-</article>
+    <div class="base__more">
+      <a class="base__more-button btn__primary btn" href="#">
+        Показать еще
+        <svg class="btn__primary-icon">
+          <use xlink:href="/assets/img/icons.svg#arrow"></use>
+        </svg>
+      </a>
+    </div>
+  </article>
+</div>
 {% endblock %}

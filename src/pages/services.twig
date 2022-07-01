@@ -1,99 +1,103 @@
 {% extends 'components/layout.twig' %}
 {% set title = "Услуги" %}
 {% set description = "Услуги &#8212; PFM &#8212; полнофункцианальная фирма" %}
-
+{% set isHomePage = 'no' %}
 {% block headerPages %}
   {% include 'components/header-page.twig' %}
 {% endblock %}
 
 {% block content %}
-<section class="services__if container">
-  <div class="services__if-item">
-    <div class="services__if-title">Если вы</div>
+  <div class="section">
+    <div class="container">
+      <ul class="services__if list-unstyled">
+        <li class="services__if-item">
+          <div class="services__if-title">Если вы</div>
 
-    <svg class="services__if-icon">
-      <use xlink:href="/assets/img/icons.svg#owner"></use>
-    </svg>
-
-    <div class="services__if-text">
-      Владелец земли, изучающий возможность строительства гостиницы
-    </div>
-  </div>
-
-  <div class="services__if-item">
-    <div class="services__if-title">Если вы</div>
-
-    <svg class="services__if-icon">
-      <use xlink:href="/assets/img/icons.svg#creditor"></use>
-    </svg>
-
-    <div class="services__if-text">
-      Кредитор, организующий финансирование для строительства гостиницы
-    </div>
-  </div>
-
-  <div class="services__if-item">
-    <div class="services__if-title">Если вы</div>
-
-    <svg class="services__if-icon">
-      <use xlink:href="/assets/img/icons.svg#official"></use>
-    </svg>
-
-    <div class="services__if-text">
-      Государственное учреждение и&nbsp;хотите подробно разобраться в&nbsp;гостиничном рынке Вашего региона
-    </div>
-  </div>
-</section>
-
-<section class="services__clients container">
-  <h2 class="main__title">Мы поможем вам:</h2>
-
-  <div class="services__clients-content">
-    <aside class="services__clients-box">
-      <ul class="list-unstyled">
-        <li class="services__clients-item">
-          <svg class="services__clients-icon">
-            <use xlink:href="/assets/img/icons.svg#check"></use>
+          <svg class="services__if-icon">
+            <use xlink:href="/assets/img/icons.svg#owner"></use>
           </svg>
-          Получить объективный и&nbsp;независимый взгляд на&nbsp;проект
+
+          <div class="services__if-text">
+            Владелец земли, изучающий возможность строительства гостиницы
+          </div>
         </li>
-        <li class="services__clients-item">
-          <svg class="services__clients-icon">
-            <use xlink:href="/assets/img/icons.svg#check"></use>
+
+        <li class="services__if-item">
+          <div class="services__if-title">Если вы</div>
+
+          <svg class="services__if-icon">
+            <use xlink:href="/assets/img/icons.svg#creditor"></use>
           </svg>
-          Найти общий язык с&nbsp;банком-кредитором
+
+          <div class="services__if-text">
+            Кредитор, организующий финансирование для строительства гостиницы
+          </div>
         </li>
-        <li class="services__clients-item">
-          <svg class="services__clients-icon">
-            <use xlink:href="/assets/img/icons.svg#check"></use>
+
+        <li class="services__if-item">
+          <div class="services__if-title">Если вы</div>
+
+          <svg class="services__if-icon">
+            <use xlink:href="/assets/img/icons.svg#official"></use>
           </svg>
-          Обосновать проект для получения государственной поддержки
+
+          <div class="services__if-text">
+            Государственное учреждение и&nbsp;хотите подробно разобраться в&nbsp;гостиничном рынке Вашего региона
+          </div>
         </li>
       </ul>
-    </aside>
 
-    <aside class="services__clients-box">
-      <ul class="services__clients-list list-unstyled">
-        <li class="services__clients-item">
-          <svg class="services__clients-icon">
-            <use xlink:href="/assets/img/icons.svg#check"></use>
-          </svg>
-          Проанализировать туристский потенциал региона
-        </li>
-        <li class="services__clients-item">
-          <svg class="services__clients-icon">
-            <use xlink:href="/assets/img/icons.svg#check"></use>
-          </svg>
-          Понять какие гостиницы нужны региону
-        </li>
-        <li class="services__clients-item">
-          <svg class="services__clients-icon">
-            <use xlink:href="/assets/img/icons.svg#check"></use>
-          </svg>
-          Создать туристскую стратегию на&nbsp;основе лучших мировых практик
-        </li>
-      </ul>
-    </aside>
+      <section class="services__clients">
+        <h2 class="section__title">Мы поможем вам:</h2>
+
+        <div class="services__clients-content">
+          <aside class="services__clients-box">
+            <ul class="list-unstyled">
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Получить объективный и&nbsp;независимый взгляд на&nbsp;проект
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Найти общий язык с&nbsp;банком-кредитором
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Обосновать проект для получения государственной поддержки
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="services__clients-box">
+            <ul class="services__clients-list list-unstyled">
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Проанализировать туристский потенциал региона
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Понять какие гостиницы нужны региону
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Создать туристскую стратегию на&nbsp;основе лучших мировых практик
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </div>
   </div>
-</section>
 {% endblock %}

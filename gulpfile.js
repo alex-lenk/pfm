@@ -62,7 +62,16 @@ const pathFiles = {
 
 const HTML = () => {
   return src(pathFiles.html.src)
-    .pipe(twig())
+    .pipe(twig({
+      data: {
+        title: 'Gulp and Twig',
+        benefits: [
+          'Fast',
+          'Flexible',
+          'Secure'
+        ]
+      }
+    }))
     .pipe(dest(pathFiles.html.build))
     .pipe(browserSync.stream())
 }
