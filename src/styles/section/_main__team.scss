@@ -94,7 +94,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .main__team-aside p:last-of-type {
     clear: left;
   }
@@ -117,6 +117,10 @@
   .main__person-item {
     padding-left: 20px;
     padding-right: 20px;
+
+    &:not(:last-of-type) {
+      margin-bottom: 32px;
+    }
   }
 }
 

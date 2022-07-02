@@ -10,7 +10,6 @@
 }
 
 .page__contacts-list {
-  justify-content: center;
   text-align: left;
 }
 
@@ -29,17 +28,5 @@
 @media (max-width: 576px) {
   .page__contacts-text {
     margin-bottom: 29px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 1200px) {
-  .page__contacts {
-    .main__contacts-list {
-      display: flex;
-    }
-
-    .main__contacts-item:not(:last-child) {
-      margin-right: 32px;
-    }
   }
 }
