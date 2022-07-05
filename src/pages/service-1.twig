@@ -1,0 +1,108 @@
+{% extends 'components/layout.twig' %}
+{% set title = "Глубокий анализ реализуемости проекта" %}
+{% set description = "Глубокий анализ реализуемости проекта" %}
+{% set isHomePage = 'no' %}
+{% set breadcrumbs = [
+  {
+    'name': 'Услуги',
+    'url': 'services.html',
+  },
+  {
+    'name': title
+  }
+] %}
+{% block content %}
+  <div class="section">
+    <div class="container">
+      <ul class="section__boxes section__boxes--large list-unstyled">
+        <li class="section__boxes-item">
+          <div class="section__boxes-title">Если вы</div>
+
+          <svg class="section__boxes-icon">
+            <use xlink:href="/assets/img/icons.svg#owner"></use>
+          </svg>
+
+          <div>
+            Владелец земли, изучающий возможность строительства гостиницы
+          </div>
+        </li>
+
+        <li class="section__boxes-item">
+          <div class="section__boxes-title">Если вы</div>
+
+          <svg class="section__boxes-icon">
+            <use xlink:href="/assets/img/icons.svg#creditor"></use>
+          </svg>
+
+          <div>
+            Кредитор, организующий финансирование для строительства гостиницы
+          </div>
+        </li>
+
+        <li class="section__boxes-item">
+          <div class="section__boxes-title">Если вы</div>
+
+          <svg class="section__boxes-icon">
+            <use xlink:href="/assets/img/icons.svg#official"></use>
+          </svg>
+
+          <div>
+            Государственное учреждение и&nbsp;хотите подробно разобраться в&nbsp;гостиничном рынке Вашего региона
+          </div>
+        </li>
+      </ul>
+
+      <section class="services__clients">
+        <h2 class="section__title">Мы поможем вам:</h2>
+
+        <div class="services__clients-content">
+          <aside class="services__clients-box">
+            <ul class="list-unstyled">
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Получить объективный и&nbsp;независимый взгляд на&nbsp;проект
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Найти общий язык с&nbsp;банком-кредитором
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Обосновать проект для получения государственной поддержки
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="services__clients-box">
+            <ul class="services__clients-list list-unstyled">
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Проанализировать туристский потенциал региона
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Понять какие гостиницы нужны региону
+              </li>
+              <li class="services__clients-item">
+                <svg class="services__clients-icon">
+                  <use xlink:href="/assets/img/icons.svg#check"></use>
+                </svg>
+                Создать туристскую стратегию на&nbsp;основе лучших мировых практик
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </div>
+  </div>
+{% endblock %}

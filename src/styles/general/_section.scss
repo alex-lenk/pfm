@@ -1,27 +1,103 @@
-.section__title {
-  text-align: center;
-}
+.section {
+  &__title {
+    text-align: center;
+  }
 
-@media (min-width: 576px) {
-  .section {
+  @media (min-width: 576px) {
     padding-top: 85px;
     padding-bottom: 95px;
+
+    &__title {
+      margin-bottom: 37px;
+      font-size: 48px;
+      line-height: 60px;
+    }
   }
-  .section__title {
-    margin-bottom: 37px;
-    font-size: 48px;
-    line-height: 60px;
+
+  @media (max-width: 576px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    &__title {
+      margin-bottom: get-vw(24px, 375);
+      font-size: get-vw(34px, 375);
+      line-height: get-vw(43px, 375);
+    }
   }
 }
 
-@media (max-width: 576px) {
-  .section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+.section__paragraph {
+  margin-bottom: 30px;
+}
+
+.section__boxes {
+  margin-bottom: 50px;
+  text-align: center;
+
+  &--large {
+    margin-bottom: 70px;
   }
-  .section__title {
-    margin-bottom: get-vw(24px, 375);
-    font-size: get-vw(34px, 375);
-    line-height: get-vw(43px, 375);
+
+  &-item {
+    padding: 31px 20px;
+    color: inherit;
+    line-height: 24px;
+    display: block;
+    position: relative;
+    border-radius: 9px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 7px 15px rgba($body-color, .15);
+  }
+
+  &-icon {
+    width: 114px;
+    height: 129px;
+    margin: 0 auto 8px;
+    display: block;
+  }
+
+  &-title {
+    line-height: 1;
+    font-weight: 900;
+    position: absolute;
+    top: 43px;
+    left: 30px;
+  }
+
+  @media (max-width: 576px) {
+    &-icon {
+      width: get-vw(114px, 375);
+      height: get-vw(129px, 375);
+      margin-bottom: get-vw(10px, 375);
+    }
+    &-title {
+      font-size: get-vw(20px, 375);
+    }
+  }
+
+  @media (min-width: 1100px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 34px;
+  }
+
+  @media (max-width: 768px) {
+    &-item:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1100px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-item {
+      width: calc(50% - 16px);
+
+      &:last-child {
+        margin: 32px auto 0;
+      }
+    }
   }
 }

@@ -2,20 +2,11 @@
 {% set title = "База знаний" %}
 {% set description = "База знаний &#8212; PFM &#8212; полнофункцианальная фирма" %}
 {% set isHomePage = 'no' %}
-{% block headerPages %}
-<header class="header__page">
-  <div class="container">
-    <h1 class="header__page-title">База знаний</h1>
-
-    <ol class="breadcrumbs list-unstyled">
-      <li class="breadcrumbs__item">
-        <a href="/" class="breadcrumbs__link">Главная</a>
-      </li>
-      <li class="breadcrumbs__item breadcrumbs__item-current">База знаний</li>
-    </ol>
-  </div>
-</header>
-{% endblock %}
+{% set breadcrumbs = [
+  {
+    'name': title
+  }
+] %}
 
 {% block content %}
 <div class="container">

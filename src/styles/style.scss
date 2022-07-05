@@ -29,27 +29,8 @@
 @import "section/main__connection";
 @import "section/footer";
 @import "section/header__page";
-@import "section/services__if";
 @import "section/services__clients";
 @import "section/page__contacts";
 @import "section/base";
 @import "section/base__article";
 @import "section/base__video";
-
-.modal__final {
-  text-align: center;
-  display: none;
-}
-
-.modal__final-title {
-  margin-bottom: 20px;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 40px;
-  color: #73B5FF;
-}
-
-.modal__final-text {
-  font-weight: 300;
-  line-height: 25px;
-}

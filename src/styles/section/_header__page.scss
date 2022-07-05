@@ -18,14 +18,6 @@
   &-title {
     @media (min-width: 576px) {
       margin-bottom: 13px;
-      font-size: 48px;
-      line-height: 60px;
-    }
-
-    @media (max-width: 576px) {
-      margin-bottom: 22px;
-      font-size: get-vw(34px, 375);
-      line-height: get-vw(43px, 375);
     }
   }
 }
