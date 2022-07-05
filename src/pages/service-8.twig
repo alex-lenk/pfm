@@ -1,0 +1,83 @@
+{% extends 'components/layout.twig' %}
+{% set title = "Внедрение USALI" %}
+{% set description = title %}
+{% set isHomePage = 'no' %}
+{% set breadcrumbs = [
+  {
+    'name': 'Услуги',
+    'url': 'services.html',
+  },
+  {
+    'name': title
+  }
+] %}
+{% block content %}
+<div class="section container">
+  <p class="section__paragraph text__bold">
+    При ведении учета в гостинице у собственников
+    <br>
+    возникают следующие вопросы
+  </p>
+
+  <ul class="section__boxes list-unstyled">
+    <li class="section__boxes-item">
+      <svg class="section__boxes-icon">
+        <use xlink:href="/assets/img/icons.svg#report"></use>
+      </svg>
+      <div>
+        Как ворох отчетов и&nbsp;данных превратить в&nbsp;систему, которая поможет увеличить прибыль?
+      </div>
+    </li>
+
+    <li class="section__boxes-item">
+      <svg class="section__boxes-icon">
+        <use xlink:href="/assets/img/icons.svg#kpi"></use>
+      </svg>
+      <div>
+        Какие KPI ставить
+        <br>
+        менеджменту?
+      </div>
+    </li>
+
+    <li class="section__boxes-item">
+      <svg class="section__boxes-icon">
+        <use xlink:href="/assets/img/icons.svg#profitability"></use>
+      </svg>
+      <div>
+        Как определить доходность каждого подразделения в&nbsp;отдельности?
+      </div>
+    </li>
+  </ul>
+
+  <p class="section__paragraph">
+    На эти и многие другие вопросы отвечает система USALI. USALI – это подробные рекомендации как наглядно отражать
+    в отчетности любые операции в гостинице
+  </p>
+
+  <h2 class="section__title">
+    USALI помогает:
+  </h2>
+
+  <ul class="section__list list-unstyled">
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Объединить в&nbsp;одном отчете продажи, бух учет и&nbsp;кадры, чтобы понять в&nbsp;каком подразделении на&nbsp;что влиять для максимизации прибыли
+    </li>
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Установить план по каждому подразделению
+    </li>
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Изучить отклонения факта от&nbsp;плана при анализе результатов работы
+    </li>
+  </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,87 @@
+{% extends 'components/layout.twig' %}
+{% set title = "Внедрение USALI" %}
+{% set description = title %}
+{% set isHomePage = 'no' %}
+{% set breadcrumbs = [
+  {
+    'name': 'Услуги',
+    'url': 'services.html',
+  },
+  {
+    'name': title
+  }
+] %}
+{% block content %}
+<div class="section container">
+  <p class="section__paragraph text__bold">
+    При работе с&nbsp;международными гостиничными операторами
+    <br>
+    могут возникнуть следующие проблемы:
+  </p>
+
+  <ul class="section__boxes list-unstyled">
+    <li class="section__boxes-item">
+      <svg class="section__boxes-icon">
+        <use xlink:href="/assets/img/icons.svg#area"></use>
+      </svg>
+      <div>
+        Какая должна быть площадь номеров
+        для вашей категории гостиницы?
+      </div>
+    </li>
+
+    <li class="section__boxes-item">
+      <svg class="section__boxes-icon">
+        <use xlink:href="/assets/img/icons.svg#materials"></use>
+      </svg>
+      <div>
+        Какие материалы должны быть использованы в отделке?
+      </div>
+    </li>
+
+    <li class="section__boxes-item">
+      <svg class="section__boxes-icon">
+        <use xlink:href="/assets/img/icons.svg#safety"></use>
+      </svg>
+      <div>
+        Какие требования к противопожарной безопасности?
+      </div>
+    </li>
+  </ul>
+
+  <p class="section__paragraph">
+    Основная цель данного направления&nbsp;&mdash; это помощь собственникам будущих отелей в&nbsp;создании гостиниц, соответствующих
+    самым высоким международным стандартам.
+  </p>
+
+  <p class="section__paragraph">
+    В&nbsp;нашей команде есть специалисты, которые на&nbsp;протяжении длительного времени работали с&nbsp;большинством
+    международных гостиничных операторов.
+  </p>
+
+  <h2 class="section__title">
+    Чем мы можем вам помочь:
+  </h2>
+
+  <ul class="section__list list-unstyled">
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Выполнить планировку помещений, соответствующую требованиям международных операторов
+    </li>
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Выполнить дизайн интерьера в&nbsp;духе лучших мировых трендов
+    </li>
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Выполнить спецификация мебели, оборудования и&nbsp;светильников (FF&amp;E)
+    </li>
+  </ul>
+</div>
+{% endblock %}
