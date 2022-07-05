@@ -1,0 +1,111 @@
+{% extends 'components/layout.twig' %}
+{% set title = "Технический аудит" %}
+{% set description = title %}
+{% set isHomePage = 'no' %}
+{% set breadcrumbs = [
+  {
+    'name': 'Услуги',
+    'url': 'services.html',
+  },
+  {
+    'name': title
+  }
+] %}
+
+{% block content %}
+  <div class="section container">
+    <ul class="section__boxes list-unstyled">
+      <li class="section__boxes-item">
+        <svg class="section__boxes-icon">
+          <use xlink:href="/assets/img/icons.svg#calendar"></use>
+        </svg>
+
+        <div>
+          Ваш объект построен более пяти лет назад?
+        </div>
+      </li>
+
+      <li class="section__boxes-item">
+        <svg class="section__boxes-icon">
+          <use xlink:href="/assets/img/icons.svg#mounting"></use>
+        </svg>
+
+        <div>
+          Вы&nbsp;сомневаетесь в&nbsp;качестве проведенных строительно- монтажных работ?
+        </div>
+      </li>
+
+      <li class="section__boxes-item">
+        <svg class="section__boxes-icon">
+          <use xlink:href="/assets/img/icons.svg#furniture"></use>
+        </svg>
+
+        <div>
+          Мебель и&nbsp;оборудование в&nbsp;гостинице требуют замены?
+        </div>
+      </li>
+    </ul>
+
+    <p class="section__paragraph text__center text__bold">
+      Во всех этих и многих других случаях необходимо провести
+      <br>
+      технический аудит гостиницы.
+    </p>
+
+    <h2 class="h1 text__center">Мы поможем вам:</h2>
+
+    <section class="services__clients">
+      <div class="services__clients-content">
+        <aside class="services__clients-box">
+          <ul class="list-unstyled">
+            <li class="services__clients-item">
+              <svg class="services__clients-icon">
+                <use xlink:href="/assets/img/icons.svg#check"></use>
+              </svg>
+              Выполнить оценку текущего технического
+              состояния материальной базы и&nbsp;инженерной
+              инфраструктуры гостиницы
+            </li>
+            <li class="services__clients-item">
+              <svg class="services__clients-icon">
+                <use xlink:href="/assets/img/icons.svg#check"></use>
+              </svg>
+              Выявим дефекты, в&nbsp;том числе с&nbsp;использованием
+              специализированного оборудования
+            </li>
+            <li class="services__clients-item">
+              <svg class="services__clients-icon">
+                <use xlink:href="/assets/img/icons.svg#check"></use>
+              </svg>
+              Подготовим ведомости выявленных дефектов
+            </li>
+          </ul>
+        </aside>
+
+        <aside class="services__clients-box">
+          <ul class="services__clients-list list-unstyled">
+            <li class="services__clients-item">
+              <svg class="services__clients-icon">
+                <use xlink:href="/assets/img/icons.svg#check"></use>
+              </svg>
+              Оценим необходимость проведения
+              капитального ремонта
+            </li>
+            <li class="services__clients-item">
+              <svg class="services__clients-icon">
+                <use xlink:href="/assets/img/icons.svg#check"></use>
+              </svg>
+              Разработаем график ремонтов
+            </li>
+            <li class="services__clients-item">
+              <svg class="services__clients-icon">
+                <use xlink:href="/assets/img/icons.svg#check"></use>
+              </svg>
+              Рассчитаем затраты, необходимых инвестиций
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </div>
+{% endblock %}
