@@ -2,8 +2,31 @@
   &__title {
     text-align: center;
   }
+
   &__title--blue {
     color: #0154B2;
+  }
+
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  &__list-item {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__list-icon {
+    width: 27px;
+    height: 27px;
+    margin-right: 16px;
+    flex-shrink: 0;
   }
 
   @media (min-width: 576px) {

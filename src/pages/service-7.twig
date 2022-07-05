@@ -1,0 +1,83 @@
+{% extends 'components/layout.twig' %}
+{% set title = "Брокерские услуги" %}
+{% set description = title %}
+{% set isHomePage = 'no' %}
+{% set breadcrumbs = [
+  {
+    'name': 'Услуги',
+    'url': 'services.html',
+  },
+  {
+    'name': title
+  }
+] %}
+
+{% block content %}
+<div class="section container">
+  <p class="section__paragraph text__center">
+    Гостиница, как и&nbsp;любой бизнес оценивается по&nbsp;способности создавать свободные денежные потоки в&nbsp;будущем. Однако специфика оценки именно гостиниц заключается в&nbsp;наличии уникальных показателей
+    ADR, RevPAR, GOPPAR, MPI, ARI. RGI, RD&nbsp;Dep
+    Profit margin, FB&nbsp;Dep Profit margin, Average Labor Cost и&nbsp;др.
+  </p>
+
+  <div class="section__paragraph text__center text__bold">
+    Без опыта практического применения этих показателей
+    <br>
+    оценить гостиницу невозможно!
+  </div>
+
+  <p class="section__paragraph text__center">
+    Мы&nbsp;имеем такой опыт и&nbsp;готовы помочь нашим клиентам максимизировать стоимость бизнеса.
+  </p>
+
+
+  <h2 class="section__title">
+    Чем мы можем быть полезны
+    <br>
+    в рамках брокериджа:
+  </h2>
+
+  <div class="services__clients-content">
+    <aside class="services__clients-box">
+      <ul class="list-unstyled">
+        <li class="section__list-item">
+          <svg class="section__list-icon">
+            <use xlink:href="/assets/img/icons.svg#check"></use>
+          </svg>
+          Эксклюзивный поиск покупателя
+          на&nbsp;гостиничный объект
+        </li>
+        <li class="section__list-item">
+          <svg class="section__list-icon">
+            <use xlink:href="/assets/img/icons.svg#check"></use>
+          </svg>
+          Организация дью-дилиженс
+        </li>
+        <li class="section__list-item">
+          <svg class="section__list-icon">
+            <use xlink:href="/assets/img/icons.svg#check"></use>
+          </svg>
+          Помощь в&nbsp;структурировании сделки
+        </li>
+      </ul>
+    </aside>
+
+    <aside class="services__clients-box">
+      <ul class="services__clients-list list-unstyled">
+        <li class="section__list-item">
+          <svg class="section__list-icon">
+            <use xlink:href="/assets/img/icons.svg#check"></use>
+          </svg>
+          Комплексное финансовое моделирование сделки
+        </li>
+        <li class="section__list-item">
+          <svg class="section__list-icon">
+            <use xlink:href="/assets/img/icons.svg#check"></use>
+          </svg>
+          Юридическое сопровождение сделки
+        </li>
+      </ul>
+    </aside>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'components/layout.twig' %}
+{% set title = "Поиск топ-менеджмента" %}
+{% set description = title %}
+{% set isHomePage = 'no' %}
+{% set breadcrumbs = [
+  {
+    'name': 'Услуги',
+    'url': 'services.html',
+  },
+  {
+    'name': title
+  }
+] %}
+
+{% block content %}
+<div class="section container">
+  <h2 class="section__title">
+    В индустрии гостеприимства
+    <br>
+    кадры решают все!
+  </h2>
+
+  <ul class="section__list section__paragraph list-unstyled">
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Мы помогаем клиентам найти ключевых руководителей в гостиницу
+    </li>
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Мы&nbsp;лично знакомы со&nbsp;многими топ-менеджерами гостиниц России и&nbsp;ближнем зарубежье.
+    </li>
+    <li class="section__list-item">
+      <svg class="section__list-icon">
+        <use xlink:href="/assets/img/icons.svg#check"></use>
+      </svg>
+      Мы&nbsp;хорошо знаем требование владельцев гостиниц к&nbsp;топам, так
+      и&nbsp;требования топов к&nbsp;руководству
+    </li>
+  </ul>
+
+  <div class="text__center text__bold">
+    Если вам нужна помощь в подборе ключевых сотрудников,
+    <br>
+    мы с радостью вам поможем!
+  </div>
+</div>
+{% endblock %}

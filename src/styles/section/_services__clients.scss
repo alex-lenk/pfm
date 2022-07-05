@@ -2,21 +2,6 @@
   margin-bottom: 42px;
 }
 
-.services__clients-item {
-  display: flex;
-
-  &:not(:last-child) {
-    margin-bottom: 16px;
-  }
-}
-
-.services__clients-icon {
-  width: 27px;
-  height: 27px;
-  margin-right: 16px;
-  flex-shrink: 0;
-}
-
 @media (min-width: 768px) {
   .services__clients-content {
     display: flex;
