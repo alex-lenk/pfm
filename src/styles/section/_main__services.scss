@@ -14,10 +14,9 @@
 }
 
 .main__services-title {
-  min-height: 93px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 1.2;
 }
 
 .main__services-text {
@@ -36,6 +35,14 @@
 @media (min-width: 576px) {
   .main__services-list {
     display: grid;
+  }
+  .main__services-title {
+    max-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
 }
 
