@@ -31,12 +31,6 @@
 }
 
 .section__list {
-  &-wrap {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-  }
-
   &-item {
     display: flex;
 
@@ -57,6 +51,13 @@
     justify-content: space-between;
   }
 
+  @media (min-width: 992px) {
+    &-wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+  }
   @media (min-width: 1200px) {
     .section__list-box {
       width: 43%;
@@ -115,11 +116,6 @@
   }
 
   @media (max-width: 576px) {
-    &-icon {
-      width: get-vw(114px, 375);
-      height: get-vw(129px, 375);
-      margin-bottom: get-vw(10px, 375);
-    }
     &-title {
       font-size: get-vw(20px, 375);
     }

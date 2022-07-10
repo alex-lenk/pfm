@@ -60,4 +60,29 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     },
   });
+
+  //Запрет копирования через скрипт
+  document.ondragstart = noSelect;
+
+  document.onselectstart = noSelect;
+
+  document.oncontextmenu = noSelect;
+
+  function noSelect() {return false;}
+
+  document.onkeydown = function(e) {
+
+    if(e.key === 'F12') {
+      return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+      return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+      return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+      return false;
+    }
+  }
 })
