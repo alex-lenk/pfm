@@ -45,17 +45,17 @@ document.addEventListener('DOMContentLoaded', function () {
     catchFocus: true,
     closeOnEsc: true,
     backscroll: true,
-    beforeOpen: function(modal){
+    beforeOpen: function (modal) {
       console.log('Message before opening the modal');
       console.log(modal); //modal window object
     },
-    afterClose: function(modal){
+    afterClose: function (modal) {
       console.log('Message after modal has closed');
       console.log(modal); //modal window object
 
       //If Youtube video inside Modal, close it on modal closing
       let videoframe = modal.openedWindow.querySelector('iframe');
-      if(videoframe){
+      if (videoframe) {
         videoframe.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
       }
     },
@@ -68,20 +68,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.oncontextmenu = noSelect;
 
-  function noSelect() {return false;}
+  function noSelect() {
+    return false;
+  }
 
-  document.onkeydown = function(e) {
+  document.onkeydown = function (e) {
 
-    if(e.key === 'F12') {
+    if (e.key === 'F12') {
       return false;
     }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
       return false;
     }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
       return false;
     }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
       return false;
     }
   }
